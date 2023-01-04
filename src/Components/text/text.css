@@ -1,0 +1,51 @@
+.text-field{
+    height: 48px;
+    width: 50%;
+    position: relative;
+}
+.text-field1{
+    height: 48px;
+    width: 50%;
+    position: flex;
+}
+.text-field input{
+    height: 100%;
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 12px;
+}
+.text-field input:focus ~ label, .text-field.transform label{
+    transform: translateY(-32px) scale(0.78);
+
+}
+
+.text-field label{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-60%);
+    transform-origin: left;
+    background: black;
+    padding: 0 4px;
+    transition: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    transform-origin: left;
+  
+    padding: 0 4px;
+    transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+}
+
+.text-field1 input{
+    height: 100%;
+   border-left: 90px;
+   border-right: 90px;
+   border-top: 90px;
+    position: flex;
+    left: 0;
+    top: 0;
+    padding-left: 12px;
+}
