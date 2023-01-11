@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-field {
+display: flex;
+justify-content: space-between;
+gap: 30px
+}
+
+.header-text {
+    margin-bottom: 100px;
+}
+
+.form{
+
+   width: 100%; 
+}
+.input-fieldEmail input{
+    position: relative;
+    padding: 10px -10px;
+   
+}

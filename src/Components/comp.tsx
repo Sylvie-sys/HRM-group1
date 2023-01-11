@@ -2,13 +2,12 @@ import { ChangeEventHandler } from "react";
 import "./comp.css"
 import { TextFieldExplained } from "./text-field-explained";
 import TextInp from "./text/text"
-import { TextField } from "@mui/material";
 
 const Components =() =>{
 
     let email = "";
     let password = "";
-
+    let number ="";
     const onEmailChange: ChangeEventHandler<HTMLInputElement> = (v) => {
         email = v.target.value;
         
@@ -17,10 +16,14 @@ const Components =() =>{
         password = v.target.value;
         
     }
+    const onNumberChange: ChangeEventHandler<HTMLInputElement> = (v) => {
+        password = v.target.value;
+        
+    }
 
     const loginAction = (evt: any) => {
         evt.preventDefault();
-        const cred = {email, password};
+        const cred = {email, password, number};
         // call the auth api
         console.log(cred);
         
@@ -28,31 +31,28 @@ const Components =() =>{
 
 return (
 <div className="create">
-    {/* <TextInp  type="text" name="fullNames" label="FullName*" helperText="SupportingText"/> <br />
-    <span>SupportingText</span>
-    <TextInp type="password" name="password" label="password*"/> <br />
-    <span>SupportingText</span>
-    <TextInp type="email" name="email" label="Email*"/>
-    <span>SupportingText</span> */}
-    
-   
+<div className='header-text'>
+            <h3>Create Account</h3>
 
-    <input name="" type="" />
+    <form action="" onSubmit={loginAction} className="form">
+        <div className="input-field">
+        <TextFieldExplained  name="name" type="text" variant="two" label="FirstName" />
+        <TextFieldExplained  name="name" type="text" variant="two" label="LaststName" /> 
+        </div>
+    <div className="input-field">
+    <TextFieldExplained  name="name" type="text" variant="two" label="New Username" /> 
 
-    <form action="" onSubmit={loginAction}>
-        <TextFieldExplained 
-            onChange={onEmailChange} 
-            name="Email" 
-            type="email" 
-            variant="one" 
-            label="Email" 
-            errorText="Invalid email" 
-            helperText="Email should contain @ sign"
-        />
-        <TextFieldExplained onChange={onPasswordChange} name="age" type="password" variant="one" label="Password" helperText="Only numbers"/>
-        <button>Login</button>
+    <TextFieldExplained onChange={onEmailChange} name="Email" type="email" variant="two" label="Email" errorText="Invalid email" helperText="Email should contain @ sign"/>
+
+    </div>
+        <div className="input-field">
+        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" helperText="characters contain @,!,? and capital letters"/>
+        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" helperText="confirm Password"/>
+  
+        </div>
+        <button className='signup-btn'>SIGN UP</button>
     </form>
-
+</div>
 </div>
 )
 
