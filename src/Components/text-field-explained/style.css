@@ -55,13 +55,14 @@ html , body{
 }
 
 /** Variants */
-.txt-field.one {
+/* .txt-field.one { */
     /* background-color: #3a3a3a;   */
-}
+/* } */
 
 .txt-field.one input{
     border: 1px solid beige;
     border-radius: 0px;
+    
 }
 .txt-field.one label{
     padding: 8px;
@@ -72,8 +73,11 @@ html , body{
 }
 
 .txt-field.two{
-    border-bottom: 1px solid beige;
-    background-color: #3a3a3a;
+    /* border-bottom: 1px solid beige; */
+    background: #4E789E;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
 }
 .txt-field.two input{
     padding-bottom: 0;
