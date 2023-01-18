@@ -1,9 +1,8 @@
 import { ChangeEventHandler } from "react";
-import "./comp.css"
-import { TextFieldExplained } from "./text-field-explained";
-import TextInp from "./text/text"
+import "./signup.css"
+import { TextFieldExplained } from "../text-field-explained";
 
-const Components = () => {
+const Signup = () => {
 
     let email = "";
     let password = "";
@@ -64,4 +63,4 @@ const Components = () => {
 
 
 }
-export default Components;
+export default Signup;
