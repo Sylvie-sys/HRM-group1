@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+html, body {
+    background-color: rgb(247, 250, 252);
+    font-family: sans-serif;
+}
+.filled input{
+    position: fixed;
+    font-size: 15px;
+    height: 60px;
+    width: 300px;
+    top: 21.2em;
+    border-radius: 4px;
+    
+}
+input {
+    background-color: white;
+    border: 3px solid hsl(209deg 100% 55%);
+    border-radius: 19px;
+}
+.filled{
+ position: relative;
+ padding: 0em 42em;
+ line-height: 40px;
+ border: 0;
+}
+.lab{
+    position: absolute;
+    top: -4em;
+    left: -4em;
+    /*display: none;
+    text-align: center;
+    cursor: text;
+    transition: 0.3s ease-in-out;
+    transform-origin: 0 0;*/
+}
+.outlined input{
+    position: fixed;
+    border-radius: 3px;
+    outline: none;
+    height: 60px;
+    width: 300px;    
+    border: 3px solid hsl(209deg 100% 55%);
+    border-top: none;
+}
+.outlined label{
+    color: rgb(53, 51, 51);
+    left: 42em;
+    top: -6px;
+    display: none;
+}
+.filled label{
+    color: rgb(70, 68, 68);
+    left: 42em;
+    top: 2.8em;
+    display: none;
+}
+.outlined span{
+    top: 2.5em;
+    color: hsl(227deg 14% 74%);
+    font-weight: 400;
+    left: 0.2em;
+}
+.filled span{
+    position: fixed;
+    top: 24em;
+    color: rgb(24, 23, 23); 
+}
+.outlined{
+    position: relative;
+    top: -3em;
+    margin-top: 9em;
+    padding: 0px 42em;
+    line-height: 0px;
+}
+.inputs{
+   top: 7em;
+}
+/*.text-field input:focus ~ label, .text-field.transform label{
+    transform: translateY(-32px) scale(0.78);
+
+}
+
+.text-field label{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    transform-origin: left;
+    background: white;
+    padding: 0 4px;
+    transition: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    transform-origin: left;
+    background: white;
+    padding: 0 4px;
+    transition: transform 0.3s cubic-bezier(0, 0, 0.3, 1);
+}
+ #outlined-basic{
+    background-color: #fdfdfd;
+    height: 30px;
+    position: relative;
+}
+#filled-basic{
+    background-color: #fdfdfd;
+    height: 28px;
+}
+#standard-basic{
+    background-color: #fdfdfd;
+    height: 33px;
+}
