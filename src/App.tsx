@@ -1,21 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+//  import Button from './components/button/button'
 import './App.css'
-import Input from './Components/Inputs'
-import Components from './Components/comp'
-function App() {
-  const onChange = ()=>{
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import LoginPage from "./Components/login-page/calling"
 
+const router = createBrowserRouter([
+  {
+    path: "/login",
+    element: <LoginPage />
   }
 
+
+
+]);
+
+ function App() {
   return (
     <>
-   <Components />
-    {/* <Input type="text" variant="outlined" label="textfield" helperText="supporting text" errorMessage="text" onChange={onChange} />  
-
-    <Input type="text" variant="filled" label="textfield" helperText="supporting text" errorMessage="text" onChange={onChange} />  
-    */}
-     </>
+   {/* <Button/>  */}
+    {/* <Components/> 
+   <Comps/> */}
+  <RouterProvider router={router} /> 
+    {/* <div className='inputs'>
+    <Input variant="outlined" label="Email" supportText='example@gmail.com' errorText="" onChange={onChange}/>
+      <Input variant="filled" label="Password" supportText='Forgot your password?' errorText="" onChange={onChange}/>
+      </div>   */}
+   
+  </>  
   )
 }
 
