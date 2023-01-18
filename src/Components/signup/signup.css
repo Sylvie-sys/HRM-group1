@@ -28,13 +28,11 @@ color: #FFFFFF;
 
 .container {
     box-sizing: border-box;
-
     width: 100%;
     max-width: 800px;
     height: 600px;
     margin: 0 auto;
     top: 100px;
-
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #213861;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -42,9 +40,11 @@ color: #FFFFFF;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
-
+.signup-txt-flds{
+      position: relative;
+      top: 92px;
+}
 .form {
 
     /* position: absolute; */
@@ -122,9 +122,27 @@ position: absolute;
 max-width: 100%;
 width: 250px;
 height: 50px;
-left: 850px;
-top: 48%;
+left: 40em;
+top: 71%;
+border-radius: none;
+color: white;
 background: #4E789E;
+}
+.end .signinlink{
+ color: #4E789E;
+ text-decoration: none;
+ display: flex;
+flex-direction: row;
+top: -1.5em;
+font-size: 15px;
+margin-left: -27.5em;
+}
+.already{
+position: relative;
+margin-top: 13em;
+font-size: 14px;
+margin-left: 82px;
+
 }
 .end{
     /* position: absolute; */
@@ -140,35 +158,6 @@ line-height: 22px;
 
 color: #FFFFFF;
 }
-
-
-/* .header-text {
-    margin-bottom: 100px;
-}
-
-
-.input-fieldEmail input{
-    position: relative;
-    padding: 10px -10px;
-   
-}
-.signup-btn{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
-
-position: absolute;
-width: 250px;
-height: 50px;
-left: 575px;
-top: 574px;
-
-background: #4E789E;
-} */
-
 @media (max-width: 680px) {
 
     .input-field1,

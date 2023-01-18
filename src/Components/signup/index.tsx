@@ -38,6 +38,7 @@ const Signup = () => {
                     <div className='header-text'>
                         <h3>Create Account</h3>
                     </div>
+                    <div className="signup-txt-flds">
                     <div className="input-field1">
                         <TextFieldExplained name="name" type="text" variant="two" label="FirstName" />
                         <TextFieldExplained name="name" type="text" variant="two" label="LaststName" />
@@ -48,11 +49,12 @@ const Signup = () => {
                     <div className="input-field3">
                         <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
                         <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
-
+                    </div>
                     </div>
                     <button className='signup-btn'>SIGN UP</button>
                     <div className="end">
-                        <h5>Already have an account?Sign in now</h5>
+                        <h5 className="already">Already have an account?</h5>
+                    <a href="#" className="signinlink"> Sign in now</a>
                     </div>
                 </form>
             </div>

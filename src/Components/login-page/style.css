@@ -13,7 +13,7 @@ html, body{
 position: relative;
 top: 1px;
 } */
-.form{
+.login-form{
     position: fixed; 
    background-color: #071746;
     width:  55%;
@@ -22,7 +22,7 @@ top: 1px;
    top: 5em;
    border: 2PX solid black;
 } 
-.txt-field{
+.txt-field-login{
     height: 40px;
     width: 80%;
     position: relative;
@@ -32,7 +32,7 @@ top: 1px;
     top: 8em;
     border: none;
 }
-.txt-field input{
+.txt-field-login input{
     height: 100%;
     width: 100%;
     position: relative;
@@ -43,27 +43,27 @@ top: 1px;
     outline: none;
     background-color: #1e3861;
 }
-.txt-field input:valid ~ span.error-text{
+.txt-field-login input:valid ~ span.error-text{
     display: none;
 }
-.txt-field input:not(:valid) ~ span.helper-text{
+.txt-field-login input:not(:valid) ~ span.helper-text{
     display: none;
 }
-.txt-field input:not(:valid) ~ span.error-text{
+.txt-field-login input:not(:valid) ~ span.error-text{
     color: red;
    font-size: 12px;
    font-weight: 300;
-   /* font-family: sans-serif; */
+  
 }
-.email .txt-field input ~ span.helper-text{
+.email .txt-field-login input ~ span.helper-text{
     font-size: 17px;
     position: relative;
     color: white;
-    left: 54px;
-    top: 99px;
+    margin-right: 28em;
+    top: 85px;
    font-weight: 500;
   }
-.txt-field label{
+.txt-field-login label{
     position: absolute;
     top: 50%;
     left: 19px;
@@ -80,7 +80,7 @@ a{
     text-decoration: none;
     color: #465d80;
     position: relative;
-    left: 43.9em;
+    left: 45.7em;
     top: 5.5em;
     font-weight: 800;
     font-size: 13px;
@@ -88,22 +88,21 @@ a{
 .passli{
     position: relative;
     color: #3e5372;
-    left: 46.5em;
+    left: 17.5em;
     top: 10em; 
    font-weight: bold;
    font-family: Arial, Helvetica, sans-serif;
   }
 
-p{
+.dont{
     color: white;
     position: relative; 
     font-size: 13px;
-    left: 34.6em;
+    left: 37.6em;
     top: 6.8em;
 }
  /* Variants */
 .txt-field.two input{
-
     color: white;
     /* background-color: #787d8d; */
 }
@@ -131,15 +130,6 @@ p{
     color: #4b5063;
 
 }
-/* .txt-field.three{
-background-color: white;
-border-bottom:1px solid #242424;
-}
-
-.txt-field.three input:focus ~ label, .two.not-empty label{
-    top: 14px;
-    color: hsl(209deg 100% 55%);
-} */
 .login{
     position: fixed;
     color: white;
@@ -149,81 +139,6 @@ border-bottom:1px solid #242424;
     font-weight: 800;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-/*.or{
-color: #787d8d;
-position: relative;
-top: 66px;
-left: 129px;
-}
-.signup{
-    color: #787d8d;
-    position: relative;
-    top: 20px;
-    
-}
-.signup-or{
-position: relative;
-top: 62px;
-left: 230px;
-}
-.signup-or a{
-  text-decoration: none;
-  color: hsl(209deg 100% 55%);
-}
-.mail{
-   background-color: white;
-   font-size: 0.70em;
-    position: fixed;
-    font-weight: 700;
-    margin-left: 5.8em;
-    margin-top: 4.2em;
-    height: 18px; 
-    width: 18px;
-}
-.lock{
-    background-color: white;
-    font-size: 0.70em;
-    /*color: #444a53;
-     position: fixed;
-     font-weight: 700;
-     margin-left: 5.8em;
-     margin-top: 4.2em;
-     height: 18px; 
-     width: 18px;
-}
-.login-svgs{
-   position: fixed;
-   margin-top: 19.8em;
-   margin-left: 11em;
-}
-.twitter{
-  width: 32px;
-  height: 32px;
-}
-.facebook{
-    width: 32px;
-    height: 32px;
-}
-.google{
-    width: 32px;
-  height: 32px;
-}
-.line1{
-    height: 1px;
-    width: 96px;
-    background-color: #787d8d;;
-    position: relative;
-    left: 16em;
-    top: 3.8em;
-}
-.line2{
-    height: 1px;
-    width: 90px;
-    background-color: #787d8d;;
-    position: relative;
-    top: 3.8em;
-}*/
 .line3{
     height: 1px;
     width: 106px;
@@ -237,7 +152,7 @@ svg{
   height: 40px;
   width: 40px;
   position: relative;
-  left: 16em;
+  left: 13.5em;
   bottom: 60PX;
 }
 .btn{
@@ -263,27 +178,6 @@ svg{
 background-color: white;
 padding: 9px 69px;
 color: #3a5b8b;
-}
-
-/*.txt-field.one  input:focus ~ label{
-      background-color: none;
-          color: white; 
-        }
-.check{
-    height: 26px;
-    width: 26px;
-    color: white;
-    position: relative;
-    left: 20em;
-    top: 10px;
-}
-img.icon{
-    position: absolute;
-    top: 50%;
-    left: 8px;
-    transform: translateY(-50%);
-    z-index: 10;
-    width: 20px;
 }
 
 
