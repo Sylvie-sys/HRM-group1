@@ -1,0 +1,214 @@
+/* .side-nav{
+    margin-top: 50px;
+}
+.side-nav li{
+    list-style: none;
+    padding: 15px, 90px;
+    transition:  0.3s ease;
+    left: 40px;
+    top: 20PX;
+}
+.side-nav li :hover{
+    background-color: #253647;
+    cursor: pointer;
+    
+}
+.side-nav li:nth-child(1){
+    position: relative;
+}
+.side-nav li:nth-child(2){
+    position: relative;
+    top: 40px;
+}
+.side-nav li:nth-child(3){
+    position: relative;
+    top: 60px;
+}
+.side-nav li:nth-child(4){
+    position: relative;
+    top: 80px;
+}
+.side-nav li:nth-child(5){
+    position: relative;
+    top: 100px;  
+}
+.side-nav li:nth-child(6){
+    position: relative;
+    top: 120px;
+}
+.side-nav li:nth-child(7){
+    position: relative;
+    top: 165px;
+    
+}
+.side-nav li:nth-child(8){
+    position: relative;
+    top: 185px;
+}
+.side-nav li :hover a{
+          color:#F3F4F6;
+}
+.side-nav li a{
+    text-decoration: none;
+    color: rgb(134, 141, 151);
+    font-weight: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px; 
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px 0 25px;
+    transition:  0.3s ease;
+} */
+/* 
+#menu .items{
+    margin-top: 50px;
+}
+#menu .items{
+    list-style: none;
+    padding: 15px, 90px;
+    transition:  0.3s ease;
+    left: 40px;
+    top: 20PX;
+}
+#menu .items a :hover{
+    background-color: #253647;
+    cursor: pointer;
+    
+}
+#menu .items a:nth-child(1){
+    position: relative;
+}
+#menu .items a:nth-child(2){
+    position: relative;
+    top: 40px;
+}
+#menu .items a:nth-child(3){
+    position: relative;
+    top: 60px;
+}
+#menu .items a:nth-child(4){
+    position: relative;
+    top: 80px;
+}
+#menu .items a:nth-child(5){
+    position: relative;
+    top: 100px;  
+}
+#menu .items a:nth-child(6){
+    position: relative;
+    top: 120px;
+}
+#menu .items a:nth-child(7){
+    position: relative;
+    top: 165px;
+    
+}
+#menu .items a:nth-child(8){
+    position: relative;
+    top: 185px;
+}
+#menu .items a :hover a{
+          color:#F3F4F6;
+}
+#menu .items a{
+    text-decoration: none;
+    color: rgb(134, 141, 151);
+    font-weight: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px; 
+    text-align: center;
+    line-height: 30px;
+
+    margin: 0 10px 0 25px;
+    transition:  0.3s ease;
+} */
+/* .menu{
+  display: flex;
+ justify-content: center;
+} */
+/* nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   color: black;
+}
+nav a{
+    display: list-item;
+    text-decoration: none;
+} */
+.menu{
+    position: fixed;
+    background-color: #071746;
+    width: 252px;
+    height: 695px;
+}
+.menu li{
+    list-style: none;
+    padding: 15px, 90px;
+    transition:  0.3s ease;
+    left: 40px;
+    top: 140PX;
+}
+.menu .items li :hover{
+    background-color: #253647;
+    cursor: pointer;
+    
+}
+.menu .items li:nth-child(1){
+    position: relative;
+}
+.menu .items li:nth-child(2){
+    position: relative;
+    top: 160px;
+}
+.menu .items li:nth-child(3){
+    position: relative;
+    top: 184px;
+}
+.menu .items li:nth-child(4){
+    position: relative;
+    top: 210px;
+}
+.menu .items li:nth-child(5){
+    position: relative;
+    top: 230px;  
+}
+.menu .items li:nth-child(6){
+    position: relative;
+    top: 260px;
+    left: 1px;
+}
+.menu .items li:nth-child(7){
+    position: relative;
+    top: 340px;
+    
+}
+.menu .items li:nth-child(8){
+    position: relative;
+    top: 355px;
+}
+.menu .items li :hover a{
+          color:#F3F4F6;
+}
+.menu .items li a{
+    text-decoration: none;
+    color: rgb(134, 141, 151);
+    font-weight: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px; 
+    text-align: center;
+    line-height: 30px;
+
+    margin: 0 10px 0 25px;
+    transition:  0.3s ease;
+} 
+
+
+
+
+
+
+

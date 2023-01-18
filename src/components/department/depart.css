@@ -1,0 +1,13 @@
+
+.department{
+    background-color: #ADC9F4;
+     width: 1518px;
+    height: 694px;
+}
+.department h1{
+    position: absolute;
+    font-weight: 100;
+    font-size: 28px;
+    left: 12em;
+    top: 32px;
+} 

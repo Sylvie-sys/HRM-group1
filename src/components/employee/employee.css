@@ -1,0 +1,570 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+}
+body {
+    width: 100%;
+    background-color: #E5E7E8;
+    position: relative;
+    display: flex;
+}
+/* #menu{
+    background-color: #071746;
+    width : 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: rgb(252, 252, 252);
+    padding: 30px 0 0 30px;
+    font-size: 11PX;
+    position: relative;
+    left: 30PX;
+    top: 10px;
+}
+#menu .logo img{
+    width: 40px;
+     margin-right: 10px;
+     background-color: chartreuse;
+     border-radius: 20PX;
+}
+/* #menu .items{
+    margin-top: 50px;
+}
+#menu .items li{
+    list-style: none;
+    padding: 15px, 90px;
+    transition:  0.3s ease;
+    left: 40px;
+    top: 20PX;
+}
+#menu .items li :hover{
+    background-color: #253647;
+    cursor: pointer;
+    
+}
+#menu .items li:nth-child(1){
+    position: relative;
+}
+#menu .items li:nth-child(2){
+    position: relative;
+    top: 40px;
+}
+#menu .items li:nth-child(3){
+    position: relative;
+    top: 60px;
+}
+#menu .items li:nth-child(4){
+    position: relative;
+    top: 80px;
+}
+#menu .items li:nth-child(5){
+    position: relative;
+    top: 100px;  
+}
+#menu .items li:nth-child(6){
+    position: relative;
+    top: 120px;
+}
+#menu .items li:nth-child(7){
+    position: relative;
+    top: 165px;
+    
+}
+#menu .items li:nth-child(8){
+    position: relative;
+    top: 185px;
+}
+
+#menu .items li :hover a{
+          color:#F3F4F6;
+}
+#menu .items li a{
+    text-decoration: none;
+    color: rgb(134, 141, 151);
+    font-weight: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px; 
+    text-align: center;
+    line-height: 30px;
+
+    margin: 0 10px 0 25px;
+    transition:  0.3s ease;
+} */
+h1{
+    position: relative;
+    bottom: 8px;
+}
+.line1{
+    width: 250px;
+    background-color: #818486;
+    height: 1px;
+    position: relative;
+     top: 26.7em; 
+}
+.circle2{
+box-sizing: border-box;
+position: absolute;
+border: 5px solid black;
+border-radius: 30px;
+border-left: 5px solid rgb(201, 192, 192);
+left: 740px;
+top: 10px;
+background: #FFFFFF;
+}
+.circle3{
+box-sizing: border-box;
+position: absolute;
+border: 5px solid rgb(201, 16, 16);
+width: 40px;
+border-radius: 20px;
+border-left: 5px solid rgb(201, 192, 192);
+height: 40px;
+left: 740px;
+bottom: 85px;
+background: #FFFFFF;
+}
+.circle1{
+    box-sizing: border-box;
+    position: absolute;
+    border: 5px solid rgb(248, 123, 21);
+    width: 40px;
+    border-radius: 20px;
+    border-left: 5px solid rgb(201, 192, 192);
+    height: 40px;
+    left: 330px;
+    bottom: 85px;
+    background: #FFFFFF;
+    }
+    .circle4{
+        box-sizing: border-box;
+        position: absolute;
+        border: 5px solid rgb(248, 123, 21);
+        width: 40px;
+        border-radius: 20px;
+        border-left: 5px solid rgb(201, 192, 192);
+        height: 40px;
+        left: 330px;
+        top: 10px;
+        background: #FFFFFF;
+        }
+.interf-section{
+    margin-left: 19em;
+    padding: 0;
+    position: absolute;
+    bottom: 3.5em;
+}
+.interface{
+    right: 54px;
+    position: relative;
+    
+}
+.interface .navigation {
+    position: fixed;
+    width: calc(100% - 250px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #071746;
+    padding: 29px 30px;
+}
+.interface .navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4px 190px;
+    position: relative;
+    left: 50px;
+    border-radius: 50px;
+    border: 2px solid #bbbdbc;
+    border-bottom: 2px solid #bbbdbc;
+    background-color: white;
+    
+}
+.interface .navigation .search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    right: 155px;
+    position: relative;
+    font-weight: 500; 
+    
+}
+.interface .navigation .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.interface .navigation .profile img{
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: -29px;
+}
+.interface .navigation .profile .svg{
+    color: #444a53;
+    position: fixed;
+    font-weight: 700;
+    margin-left: -60px;
+    height: 196px; 
+    width: 96px;
+}
+.i-name{
+    position: fixed;
+    font-weight: bold;
+    margin-top: 8em;
+    left: 21em;
+}
+.n1{
+    color: #6e6f70;
+    font-size: 0.70em;
+    position: relative;
+}
+.n1 img{
+    height: 18px;
+    position: absolute;
+    left: 1em;
+    top: 0.3em;
+    color: #444a53;
+}
+.values {
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    bottom: 2em;
+}
+.values .val-box1{
+    background-color: white;
+    width: 393px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    margin-top: 29.4em;
+    line-height: 20px;
+}
+.values .val-box2{
+    background-color: white;
+    width: 393px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    margin-left: 26em;
+    margin-top: 29.4em;
+    line-height: 20px;
+}
+.values .val-box3{
+    position:relative;
+    background-color: white;
+    width: 393px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    margin-left: 26em;
+    margin-top: 39em;
+    line-height: 20px;
+}
+.values .val-box4{
+    position:relative;
+    background-color: white;
+    width: 393px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    margin-top: 39em;
+    line-height: 20px;
+}
+.value{
+    padding: 0 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+}
+.values .val-box5{
+    background-color: white;
+    width: 460px;
+    height: 274px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    right: 20em;
+    margin-top: 61em;
+    line-height: 20px;
+}
+.box1 .number{
+    font-weight: 900;
+    font-size: 30px;
+    right: 42px;
+    top: 22px;
+    position: relative;
+}
+.box1 .uiux{
+    font-weight: 900;
+}
+.box1  .candidates{
+    font-weight: 500;
+}
+.box4 .numb{
+    font-weight: 900;
+    font-size: 30px;
+    right: 60px;
+    top: 22px;
+    position: relative;
+}
+.box4 .java{
+    font-weight: 900;
+}
+.box1  .candid{
+    font-weight: 500;
+}
+.box3 .numb{
+    font-weight: 900;
+    font-size: 30px;
+    right: 42px;
+    top: 22px;
+    position: relative;
+}
+.box3 .cont{
+    font-weight: 900;
+}
+.box3  .cand{
+    font-weight: 500;
+}
+.box2 .num{
+    font-weight: 900;
+    font-size: 30px;
+    right: 42px;
+    top: 22px;
+    position: relative;
+}
+.box2 .pm{
+    font-weight: 900;
+}
+.box2  .cand{
+    font-weight: 500;
+}
+.val-box7{
+    width: 100px;
+    height: 100px;
+    left: 22em;
+    top: 25.3em;
+    position: relative;
+    background-color: white;
+}
+.values .val-box1 i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+.values .val-box2 i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+.values .val-box3 i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.values .val-box4 i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    margin-right: 15px;
+}
+/* .values .val-box1:nth-child(1) i{
+ background-color: #7874EC;
+}
+.values .val-box2:nth-child(2) i{
+    background-color: #5C8AF0;
+}
+.values .val-box3:nth-child(3) i{
+    background-color: #E45093;
+}
+.values .val-box4:nth-child(4) i{
+    background-color: #74DAEC;
+} */
+h3{
+    font-size: 14px;
+    font-weight: 600;
+}  
+.remind{
+ position: relative;
+ left: 40px;
+ bottom: 50px;
+font-size: 20px;
+font-weight: 500;
+}
+/* .search2{
+    color: #6e6f70;
+    font-size: 0.70em;
+    position: relative;
+} */
+.search2{
+    height: 20px;
+    position: absolute;
+    left: 25em;
+    top: 1em;
+    color: #444a53;
+}
+.box{
+    display: flex;
+    position: relative;
+    left: 40px;
+    bottom: 26px;
+    height: 35px;
+    width: 389px;
+    border-radius: 8px;
+    background-color: #e2dfdf;
+}
+.today{
+   font-weight: bold;
+   top: 4px;
+   position: relative;
+   left: 3px;
+   background-color: white;
+   width: 199px;
+   border-radius: 6px;
+   height: 28px;
+}
+.completed{
+    position: relative;
+    left: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    top: 8px;
+}
+.time{
+   position: relative;
+   left: 40px;
+}
+.interview{
+   position: relative;
+  background-color: #f0f1f1;
+  width: 390px;
+   border-left: 9px solid orangered;
+}
+.senior{
+    position: relative;
+    top: 16px;
+    background-color: #f0f1f1;
+    width: 390px;
+    border-left: 9px solid #091d58;
+}
+.meeting{
+    position: relative;
+    top: 28px;
+    background-color: #f0f1f1;
+    width: 390px;
+    border-left: 9px solid purple;
+}
+.meeting p{
+    position: relative;
+    left: 10px;
+}
+.senior p{
+    position: relative;
+    left: 10px
+}
+.interview p{
+    position: relative;
+    left: 10px;
+} 
+.interview .hours{
+   position: relative;
+   left: 40px;
+}
+.senior  .hours{
+    position: relative;
+   left: 40px;
+}
+.meeting  .hours{
+    position: relative;
+   left: 40px;
+}
+.val-box7{
+    background-color: white;
+    width: 324px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 20.8em;
+    margin-left: 29em;
+    line-height: 20px;
+}
+.val-box7 p{
+   position: relative;
+   bottom: 7em;
+   left: 20px;
+   font-weight: 600;
+
+}
+.val-box6{
+    width: 50px;
+    height: 399px;
+    position: fixed;
+    left: 54em;
+    top: 13.2em;
+    background-color: #061647;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
