@@ -122,7 +122,7 @@ position: absolute;
 max-width: 100%;
 width: 250px;
 height: 50px;
-left: 750px;
+left: 850px;
 top: 48%;
 background: #4E789E;
 }
@@ -130,10 +130,6 @@ background: #4E789E;
     /* position: absolute; */
 width: 289px;
 height: 23px;
-left: 553px;
-top: 638px;
-margin: 0 auto;
-
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;

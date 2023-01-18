@@ -48,7 +48,7 @@ const Components = () => {
                     </div>
                     <div className="input-field3">
                         <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
-                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" helperText="confirm Password" />
+                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
 
                     </div>
                     <button className='signup-btn'>SIGN UP</button>
