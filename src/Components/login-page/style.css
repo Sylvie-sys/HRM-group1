@@ -21,60 +21,6 @@ top: 1px;
    left: 22em;
    top: 5em;
    border: 2PX solid black;
-} 
-.txt-field{
-    height: 40px;
-    width: 80%;
-    position: relative;
-    margin: 32px 0;
-    color: white;
-    left: 5em;
-    top: 8em;
-    border: none;
-}
-.txt-field input{
-    height: 100%;
-    width: 100%;
-    position: relative;
-    padding: 10px;
-    background-color: none;
-    background-color: inherit;
-    border: none;
-    outline: none;
-    background-color: #1e3861;
-}
-.txt-field input:valid ~ span.error-text{
-    display: none;
-}
-.txt-field input:not(:valid) ~ span.helper-text{
-    display: none;
-}
-.txt-field input:not(:valid) ~ span.error-text{
-    color: red;
-   font-size: 12px;
-   font-weight: 300;
-   /* font-family: sans-serif; */
-}
-.email .txt-field input ~ span.helper-text{
-    font-size: 17px;
-    position: relative;
-    color: white;
-    left: 54px;
-    top: 99px;
-   font-weight: 500;
-  }
-.txt-field label{
-    position: absolute;
-    top: 50%;
-    left: 19px;
-    color: white;
-    background-color: #143464;
-    font-size: 16px;
-    font-weight: 400;
-    transform: translateY(-50%);
-    background-color: inherit;
-    background-color: none;
-    transition: all 0.1s cubic-bezier(0, 0, 0.3, 1);
 }
 a{
     text-decoration: none;
@@ -101,36 +47,7 @@ p{
     left: 34.6em;
     top: 6.8em;
 }
- /* Variants */
-.txt-field.two input{
-
-    color: white;
-    /* background-color: #787d8d; */
-}
-.txt-field.two input:focus{
-    border: none;
-    background-color: white;
-}
- /* .txt-field.one label{
-    padding: 8px;
-}  */
-.txt-field.two  input:focus ~ label, .one.not-empty label{
-    top: 3px;
-    color: #4b5063;
-    font-size: 12px;
-    left: 14px;
-    background-color: white;
-}
-.txt-field.two input{
-    padding-bottom: 0;
-    padding-top: 22px;
-    
-}
-.txt-field.two input:focus ~ label, .two.not-empty label{
-    top: 14px;
-    color: #4b5063;
-
-}
+ 
 /* .txt-field.three{
 background-color: white;
 border-bottom:1px solid #242424;
@@ -265,10 +182,7 @@ padding: 9px 69px;
 color: #3a5b8b;
 }
 
-/*.txt-field.one  input:focus ~ label{
-      background-color: none;
-          color: white; 
-        }
+/*
 .check{
     height: 26px;
     width: 26px;
