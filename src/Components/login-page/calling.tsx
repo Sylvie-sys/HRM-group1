@@ -26,50 +26,24 @@ const Components =() =>{
 
 return (
 <div className="create">
-    {/* <TextInp  type="text" name="fullNames" label="FullName*" helperText="SupportingText"/> <br />
-    <span>SupportingText</span>
-    <TextInp type="password" name="password" label="password*"/> <br />
-    <span>SupportingText</span>
-    <TextInp type="email" name="email" label="Email*"/>
-    <span>SupportingText</span> */}
-    
-
-
     <form action="" onSubmit={loginAction} className="form">
-         {/* <div className="line3"></div>*/}
          <h1 className="login">Sign In</h1>
         <div className="email">
-        {/* <img src="src/assets/mail.svg" alt="" className='mail'/> */}
         <TextFieldExplained onChange={onEmailChange}  name="name" type="text" variant="two" label="Enter your email address" helperText="Remember me"/>
         </div>
         <div className="pass">
-        {/* <img src="src/assets/password.svg" alt="" className='lock'/> */}
         <TextFieldExplained 
         icon={<img src="" alt="" className='icon'/>} 
         onChange={onPasswordChange} name="password" 
         type="password" variant="two" label="Enter password"/>
         <Link to={""} className="passli">Forgot password?</Link>
         </div>
-        {/* <div className="login-svgs">
-        <img src="src/assets/twitter.svg" alt="" className="twitter"/>
-        <img src="src/assets/facebook.svg" alt="" className="facebook"/>
-        <img src="src/assets/google.svg" alt="" className="google"/>
-        </div> */}
         <div className='btn'>
     <button type='button' className='fil'>
     Sign In
     </button>
     <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M20.95 31.95 35.4 17.5l-2.15-2.15-12.3 12.3L15 21.7l-2.15 2.15ZM9 42q-1.2 0-2.1-.9Q6 40.2 6 39V9q0-1.2.9-2.1Q7.8 6 9 6h30q1.2 0 2.1.9.9.9.9 2.1v30q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V9H9v30ZM9 9v30V9Z"/></svg>
     <p>Don't have account?</p>
-    {/* <img src="src/assets/check-box.svg" alt="" className="check"/>  */}
-   {/* <div className='signup-or'>
-    <span className='signup'>Do you have an accout? <a href='#'>Sign up</a></span>
-    <div>
-      <span className="or">Or login with</span>
-      <div className='line1'></div>
-      <div className='line2'></div>
-    </div>
-    </div> */}
    <Link to="" >Create account</Link>
   </div>
     </form>

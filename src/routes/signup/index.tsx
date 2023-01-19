@@ -24,9 +24,6 @@ const Signup = () => {
 
     const createUser = async (evt: any) => {
         evt.preventDefault();
-        // const cred = { email, password, number };
-        // // call the auth api
-        // console.log(cred);
 
         const newUser: NewUser = {
             email: "test@email.com",
@@ -38,10 +35,7 @@ const Signup = () => {
 
         const user = await authRepository.register(newUser);
         console.log(user);
-        
-
     }
-
     return (
         <div className="create">
 
@@ -70,8 +64,5 @@ const Signup = () => {
         </div>
 
     )
-
-
-
 }
 export default Signup;
