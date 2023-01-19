@@ -19,9 +19,7 @@ left: 540px;
 top: 139px;
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
+font-size: 22px;
 /* identical to box height */
 color: #FFFFFF;
 }
@@ -30,10 +28,9 @@ color: #FFFFFF;
     box-sizing: border-box;
 
     width: 100%;
-    max-width: 800px;
-    height: 600px;
+    max-width: 500px;
+    /* height: 600px; */
     margin: 0 auto;
-    top: 100px;
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #213861;
     border: 1px solid #000000;
@@ -45,72 +42,37 @@ color: #FFFFFF;
 
 }
 
-.form {
+.signup-form {
 
     /* position: absolute; */
     width: 100%;
-    max-width: 614px;
     height: 522px;
-    left: 93px;
-    top: 139px;
+    /* left: 93px;
+    top: 139px; */
     padding: 12px;
-
-}
-
-.input-field1 {
-    /* display: flex;
-justify-content: space-between;
-gap: 30px */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 40px;
-    width: 100%;
-    /* height: 80px; */
-
-
-    /* Inside auto layout */
-
-    /* flex: none;
-order: 0;
-flex-grow: 0; */
-}
-
-.input-field2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 10px;
-    width: 100%;
-    /* height: 81px; */
-}
 
-.input-field1 .txt-field,
-.input-field2 .txt-field,
-.input-field3 .txt-field {
-    max-width: 100%;
+}
+.signup-form .txt-field {
     margin: 8px 0;
 }
 
-.input-field3 {
+.singup-inputs-group {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 40px;
+    gap: 4px;
     width: 100%;
-    /* height: 80px; */
-
-
-    /* Inside auto layout */
-
-    /* flex: none;
-order: 2;
-flex-grow: 0; */
+    position: relative;
 }
+.singup-inputs-group .txt-field{
+    width: 100%;
+    min-width: none;
+}
+
+
 .signup-btn{
 display: flex;
 flex-direction: row;
@@ -118,12 +80,9 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 gap: 10px;
-position: absolute;
 max-width: 100%;
 width: 250px;
 height: 50px;
-left: 850px;
-top: 48%;
 background: #4E789E;
 }
 .end{
@@ -171,11 +130,7 @@ background: #4E789E;
 
 @media (max-width: 680px) {
 
-    .input-field1,
-    .input-field2,
-    .input-field3 {
-        display: flex;
+    .singup-inputs-group  {
         flex-direction: column;
-        gap: 0;
     }
 }
