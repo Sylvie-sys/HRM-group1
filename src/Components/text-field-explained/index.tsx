@@ -14,12 +14,7 @@ export const TextFieldExplained = ({  name, type = "text", variant =  "one", lab
     const [inputValue, setInputValue] = useState("");
     const inputId = name;
     const emptyInput = inputValue !== "" ? "not-empty" : "";
-    // let emptyInput;
-    // if(inputValue == ""){
-    //     emptyInput = "";
-    // }else{
-    //     emptyInput = "not-empty";
-    // }
+    
     
     return <div className={`txt-field ${variant} ${emptyInput}`} >
         

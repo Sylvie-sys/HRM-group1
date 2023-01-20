@@ -8,6 +8,7 @@ interface LoginOptions {
     password: string
 }
 
+
 export interface Authentication {
 
     async register(userData: NewUser): Promise<User>;
