@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+html, body{
+    border: none;
+    background-color: #ADC9F4;
+}
+.login-form{
+    position: relative;
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+   background-color: #071746;
+    width:  55%;
+   height: 530px;
+   left: 29em;
+   top: 5em;
+   border: 2PX solid black;
+}
+.createli{
+    text-decoration: none;
+    color: #546d91;
+    position: relative;
+    left: 30.8em;
+    font-weight: 700;
+    font-size: 15px;
+}
+.passli{
+    position: relative;
+    color: #3e5372;
+    left: 40em;
+    top: 6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+p{
+    color: white;
+    position: relative; 
+    font-size: 15px;
+    left: 30.6em;
+    
+}
+.dontli{
+display: flex;
+margin-top: 52px;
+margin-right: 12px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    position: relative;
+    top: 60px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line3{
+    height: 1px;
+    width: 106px;
+    background-color: white;
+    position: relative;
+    top: 7.7em;
+    left: 22em;
+}
+.btn{
+    position: fixed;
+    margin-left: -11em;
+    margin-top: 7em;
+    font-family: sans-serif;
+}
+.fil{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: #48699e;
+    font-weight: 400;
+    color: #f6fafd;
+    border-radius: 1px;
+    font-size: large;
+    padding: 9px 70px;
+    border: none;
+    font-weight: 700;
+    margin-left: 27em;  
+}
+.fil:hover {
+background-color: white;
+padding: 9px 69px;
+color: #3a5b8b;
+}
+.logcheck{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 58px;
+    left: 152px;
+}
+.text{
+position: relative;
+left: 122px;
+top: 42px;
+display: flex;
+flex-direction: row;
+align-items: center;
+display: flex;
+}
+.txt-field-login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    max-width: 690px;
+    position: relative;
+    top: 6.5em;
+    margin: 40px 120px;
+    background-color: inherit;
+   
+}
+.txt-field-login input{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+
+}
+.txt-field-login input:valid ~ span.error-text{
+    display: none;
+}
+.txt-field-login input:not(:valid) ~ span.helper-text{
+    display: none;
+}
+.txt-field-login input:not(:valid) ~ span.error-text{
+    color: red;
+}
+.txt-field-login label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: inherit;
+    transition: all 0.1s cubic-bezier(0, 0, 0.3, 1);
+}
+.txt-field-login span{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 10px
+}
+
+.txt-field-login.two{
+    background: #264664;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.txt-field-login.two input{
+    padding-bottom: 0;
+    padding-top: 22px;
+}
+.txt-field-login.two input:focus ~ label, .two.not-empty label{
+    top: 14px;
+}
+@media (max-width: 580px) {
+
+    .txt-field-login input  {
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+

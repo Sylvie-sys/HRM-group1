@@ -1,0 +1,69 @@
+.txt-field{
+    height: 46px;
+    width: 100%;
+    max-width:500px;
+    position: relative;
+    margin: 32px 0;
+    background-color: inherit;
+   
+}
+.txt-field *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+
+    /* background-color: aliceblue; */
+    background-color: inherit;
+}
+.txt-field input{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+
+}
+.txt-field input:valid ~ span.error-text{
+    display: none;
+}
+.txt-field input:not(:valid) ~ span.helper-text{
+    display: none;
+}
+.txt-field input:not(:valid) ~ span.error-text{
+    color: red;
+}
+.txt-field label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: inherit;
+    transition: all 0.1s cubic-bezier(0, 0, 0.3, 1);
+
+
+}
+.txt-field span{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 10px
+}
+
+.txt-field.two{
+    /* border-bottom: 1px solid beige; */
+    background: #264664;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.txt-field.two input{
+    padding-bottom: 0;
+    padding-top: 22px;
+}
+.txt-field.two input:focus ~ label, .two.not-empty label{
+    top: 14px;
+}

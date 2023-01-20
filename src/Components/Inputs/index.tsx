@@ -1,7 +1,20 @@
 import React from "react";
 import "./index.css"
+import { FormEventHandler,useState } from "react";
 
-const Input =() =>{
+type Props = {
+    
+    type: "text" | "email" | "password" | "number",
+    variant: "outlined" | "filled",
+    label: "textfield",
+    helperText : "supporting text",
+    errorMessage : "text",
+    onChange: (evt: Event)=>void
+
+    
+}
+const Input =(props: Props) =>{
+   
 return(
     <form id="form-1">
     <div>
@@ -31,7 +44,16 @@ return(
     </form>
 )
 
-}
+
+   
+
+      );
+    }
+
+
+    
+
+
 
 
 export default Input;
