@@ -28,7 +28,7 @@ export const TextFieldExplained = ({ name, type = "text",  variant =  "one", lab
         emptyInput = "not-empty";
     }
     
-    return <div className={`txt-field ${variant} ${emptyInput}`} >
+    return <div className={`txt-field-login ${variant} ${emptyInput}`} >
         
         <input id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);

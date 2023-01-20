@@ -2,9 +2,10 @@ import { ChangeEventHandler } from "react";
 import "./signup.css"
 import { TextFieldExplained } from "../../Components/text-field-explained";
 import Authentication from "../../data/repository/authentication-impl";
+
+
 const authRepository = new Authentication();
 const Signup = () => {
-    
 
     let email = "";
     let password = "";
@@ -46,18 +47,24 @@ const Signup = () => {
                     <div className='header-text'>
                         <h3>Create Account</h3>
                     </div>
+                    <div className="signup-txtfld">
                     <div className="singup-inputs-group">
                         <TextFieldExplained name="name" type="text" variant="two" label="FirstName" />
                         <TextFieldExplained name="name" type="text" variant="two" label="LaststName" />
                     </div>
+                        <div className="email-pass">
                         <TextFieldExplained name="name" type="email" variant="two" label="Emails" />
-                    <div className="singup-inputs-group">
+                        <TextFieldExplained name="number" type="number" variant="two" label="Phone number" />
+                        </div>
+                    <div className="singup-inputs-groups">
                         <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
                         <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
                     </div>
-                    <button className='signup-btn'>SIGN UP</button>
+                    </div>
+                    <button className='signup-btn'>Sign up</button>
                     <div className="end">
-                        <h5>Already have an account?Sign in now</h5>
+                        <h5>Already have an account?</h5>
+                        <a href="">Sign in now</a>
                     </div>
                 </form>
             </div>

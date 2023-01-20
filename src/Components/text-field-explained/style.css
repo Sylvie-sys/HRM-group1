@@ -1,8 +1,7 @@
 .txt-field{
-    height: 56px;
-    min-width: 260px;
+    height: 46px;
     width: 100%;
-    max-width: 500px;
+    max-width:500px;
     position: relative;
     margin: 32px 0;
     background-color: inherit;
@@ -54,27 +53,9 @@ html , body{
     font-size: 10px
 }
 
-/** Variants */
-/* .txt-field.one { */
-    /* background-color: #3a3a3a;   */
-/* } */
-
-.txt-field.one input{
-    border: 1px solid beige;
-    border-radius: 0px;
-    
-}
-.txt-field.one label{
-    padding: 8px;
-    background-color: none;
-}
-.txt-field.one input:focus ~ label, .one.not-empty label{
-    top: 0;
-}
-
 .txt-field.two{
     /* border-bottom: 1px solid beige; */
-    background: #4E789E;
+    background: #264664;
     color: white;
     font-family: 'Poppins';
     font-style: normal;
@@ -84,16 +65,5 @@ html , body{
     padding-top: 22px;
 }
 .txt-field.two input:focus ~ label, .two.not-empty label{
-    top: 14px;
-}
-.txt-field.three{
-   border-bottom: 1px solid beige; 
-   /* background-color: #3a3a3a; */
-}
-.txt-field.three input{
-    padding-bottom: 0;
-    padding-top: 22px;
-}
-.txt-field.three input:focus ~ label, .three.not-empty label{
     top: 14px;
 }
