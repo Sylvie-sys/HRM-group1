@@ -3,6 +3,9 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from "./Components/login-page/calling"
 import Signup from './routes/signup';
+// import Employee from './Dashboard-page/employee/employee';
+import Dashboard from './Dashboard-page/admin-dashboard/admin';
+// import Depart from './Dashboard-page/department/depart';
 
 const router = createBrowserRouter([
   {
@@ -12,10 +15,19 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Signup/>
-  }
-
-
-
+  },
+  {
+  path:  "/admin-dashboard",
+  element: <Dashboard/>
+ },
+//   {
+//  path: "/employee-table",
+//   element:  <Employee/>
+//   },
+//  {
+//  path: "/depart",
+//   element:  <Depart/>
+//  },
 ]);
 
  function App() {

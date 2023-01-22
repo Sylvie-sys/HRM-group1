@@ -1,0 +1,584 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+box-shadow: none;
+}
+html, body{
+    background-color: #E5E7E8;
+}
+.dyn{
+  color: white;
+  font-size: 28px;
+  position:relative;
+  right: 6.6em;
+  margin-bottom: 6em;
+}
+.hom-svg{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    left: 2em;
+    top: 82px;
+    fill: white;
+}
+.language-selector{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 87em;
+} 
+.lang-sele{
+    background-color: none;
+}
+.line2{
+width: 250px;
+height: 1px;
+top: 492px;
+left: 3px;
+justify-content: center;
+align-items: center;
+display: flex;
+position: fixed;
+background-color: rgb(149, 147, 147);
+}
+.dashb{
+    max-width: 900px;
+    height: 200px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-sgvs{
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: fixed;
+top: 2em;
+}
+.logout-svg{
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    /* right: 46em;
+    bottom: 4px; */
+    top: 36.2em;
+    left:  68px;
+    fill: white;
+}
+.help-svg{
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    top: 33.5em;
+    left: 64px;
+    fill: white;
+}
+.plot-svg{
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    top: 11em;
+    left: 60px;
+    fill: white;
+}
+.equal-svg{
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    top: 22.7em;
+    left: 64px;
+    fill: white;
+}
+.user-svg{
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    top: 15em;
+    left: 64px;
+    fill: white;
+}
+.time-svg{
+    width: 22px;
+    height: 22px;
+    position: fixed;
+    top: 26.6em;
+    left: 64px;
+    fill: white;
+}
+.menu{
+    background-color: #071746;
+    width: 259px;
+    height: 1124px;
+    position: relative;
+    right: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu li{
+    list-style: none;
+    padding: 15px, 90px;
+    transition:  0.3s ease;
+    left: 40px;
+    top: 100PX;
+}
+.menu .items li :hover{
+    background-color: #253647;
+    cursor: pointer;
+}
+.menu .items li:nth-child(1){
+    position: relative;
+}
+.menu .items li:nth-child(2){
+    position: relative;
+    top: 130px;
+    left: 52px;
+}
+.menu .items li:nth-child(3){
+    position: relative;
+    top: 164px;
+    left: 60px
+}
+.menu .items li:nth-child(4){
+    position: relative;
+    top: 200px;
+}
+.menu .items li:nth-child(5){
+    position: relative;
+    top: 230px;  
+}
+.menu .items li:nth-child(6){
+    position: relative;
+    top: 260px;
+    margin-right: 92px;
+}
+.menu .items li:nth-child(7){
+    position: relative;
+    top: 340px;
+    
+}
+.menu .items li:nth-child(8){
+    position: relative;
+    top: 355px;
+    left: 49px;
+}
+.menu .items li :hover a{
+          color:#F3F4F6;
+}
+.menu .items li a{
+    text-decoration: none;
+    color: rgb(134, 141, 151);
+    font-weight: 300px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px; 
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px 0 25px;
+    transition:  0.3s ease;
+}
+/* .line1{
+    width: 250px;
+    background-color: #818486;
+    height: 1px;
+    position: relative;
+    top: 22.7em; 
+   
+} */
+.circle2{
+box-sizing: border-box;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+border: 5px solid rgb(201, 16, 16);
+width: 40px;
+border-radius: 20px;
+border-left: 5px solid rgb(201, 192, 192);
+height: 40px;
+left: 260px;
+bottom: 70px;
+background: #FFFFFF;
+}
+.circle3{
+box-sizing: border-box;
+position: relative;
+border: 5px solid rgb(201, 16, 16);
+width: 40px;
+border-radius: 20px;
+border-left: 5px solid rgb(201, 192, 192);
+height: 40px;
+left: 740px;
+bottom: 85px;
+background: #FFFFFF;
+}
+.circle1{
+    box-sizing: border-box;
+    position: relative;
+    border: 5px solid rgb(248, 123, 21);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40px;
+    border-radius: 20px;
+    border-left: 5px solid rgb(201, 192, 192);
+    height: 40px;
+    left: 270px;
+    bottom: 68px;
+    background: #FFFFFF;
+    }
+    .circle4{
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 5px solid rgb(248, 123, 21);
+        width: 40px;
+        border-radius: 20px;
+        border-left: 5px solid rgb(201, 192, 192);
+        height: 40px;
+        left: 270px;
+        bottom: 68px;
+        background: #FFFFFF;
+        }
+.interf-section{
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.interface{
+  position: relative; 
+  bottom: 5.6em;
+  right: 22.9em;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.interface .navigation {
+    position: fixed;
+    width: calc(100% - 259px);
+    left: 16.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #071746;
+    padding: 29px 30px;
+}
+ .interface .navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px 190px;
+    position: relative;
+    left: 2em; 
+    width: 492px;
+    height: 32px;
+    border-radius: 50px;
+    border: 2px solid #bbbdbc;
+    border-bottom: 2px solid #bbbdbc;
+    background-color: white;
+    
+}
+.interface .navigation .search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    right: 155px;
+    position: relative;
+    font-weight: 500; 
+    
+}
+.search-svg{
+  width: 22px;
+  height: 22px;
+  position: relative;
+  right: 180px;
+  top: 2px;
+}
+.i-name{
+    position: fixed;
+    font-weight: 900;
+    margin-top: 12em;
+    left: 21em;
+    color: black;
+} 
+.boxes{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right:3em;
+  top: 2em;
+}
+.boxes .box1{
+    position: relative;
+    top: 16em;
+    right: 59px;
+    background-color: #FFFFFF;
+    width: 332px;
+    height: 56px;
+    border-radius: 15px;
+}
+.boxes .box1 .pm-cand{
+    position: relative;
+    right: 30em;
+    bottom: 2em;
+}
+.boxes .box1 .num{
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  right: 3.5em;
+}
+.boxes .box1 .pm{
+    font-weight: 900;
+    color: #000;
+}
+.boxes .box1 .cand{
+    font-size: 15px;
+    color: #000;
+}
+  .boxes .box2{
+      position: relative;
+      top: 17em;
+      right: 59px;
+      background-color: #FFFFFF;
+      width: 332px;
+      height: 56px;
+      border-radius: 15px;
+  }
+  .boxes .box2 .pm-cand{
+      position: relative;
+      right: 30em;
+      bottom: 2em;
+  }
+  .boxes .box2 .num{
+    font-size: 36px;
+    font-weight: 900;
+    position: relative;
+    right: 3.5em;
+  }
+  .boxes .box2 .pm{
+      font-weight: 900;
+      color: #000;
+  }
+  .boxes .box2 .cand{
+      font-size: 15px;
+      color: #000;
+  }
+  .boxes .box3{
+    position: relative;
+    top: 9em;
+    left: 290px;
+    background-color: #FFFFFF;
+    width: 332px;
+    height: 56px;
+    border-radius: 15px;
+}
+.boxes .box3 .pm-cand{
+    position: relative;
+    right: 30em;
+    bottom: 2em;
+}
+.boxes .box3 .num{
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  right: 3.5em;
+}
+.boxes .box3 .pm{
+    font-weight: 900;
+    color: #000;
+}
+.boxes .box3 .cand{
+    font-size: 15px;
+    color: #000;
+}
+.boxes .box4{
+    position: relative;
+    top: 10em;
+    left: 290px;
+    background-color: #FFFFFF;
+    width: 332px;
+    height: 56px;
+    border-radius: 15px;
+}
+.boxes .box4 .pm-cand{
+    position: relative;
+    right: 30em;
+    bottom: 2em;
+}
+.boxes .box4 .num{
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  right: 3.5em;
+}
+.boxes .box4 .pm{
+    font-weight: 900;
+    color: #000;
+}
+.boxes .box4 .cand{
+    font-size: 15px;
+    color: #000;
+}
+.val-box5{
+    background-color: white;
+    width: 430px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    right: 54px;
+    top: 13em;
+    line-height: 20px;
+}
+.remind{
+    position: relative;
+    right: 132px;
+    bottom: 50px;
+   font-size: 20px;
+   font-weight: 500;
+   }
+   .search2{
+       height: 20px;
+       position: absolute;
+       left: 24em;
+       top: 1em;
+       color: #444a53;
+   }
+   .box{
+       display: flex;
+       position: relative;
+       left: 20px;
+       bottom: 26px;
+       height: 35px;
+       width: 389px;
+       border-radius: 8px;
+       background-color: #e2dfdf;
+   }
+   .today{
+      font-weight: bold;
+      top: 4px;
+      position: relative;
+      left: 3px;
+      background-color: white;
+      width: 199px;
+      border-radius: 6px;
+      height: 28px;
+      color: #000;
+      align-items: center;
+      justify-content: start;
+   }
+  
+   .completed{
+       position: relative;
+       left: 80px;
+       font-size: 18px;
+       font-weight: 500;
+       top: 8px;
+       color: #000;
+   }
+   .time{
+      position: relative;
+      left: 40px;
+   }
+   .interview{
+      position: relative;
+     background-color: #f0f1f1;
+     width: 390px;
+     right: 22px;
+      border-left: 9px solid orangered;
+   }
+   .senior{
+       position: relative;
+       top: 16px;
+       right: 22px;
+       background-color: #f0f1f1;
+       width: 390px;
+       border-left: 9px solid #091d58;
+   }
+   .meeting{
+       position: relative;
+       top: 28px;
+       right: 22px;
+       background-color: #f0f1f1;
+       width: 390px;
+       border-left: 9px solid purple;
+   }
+   .meeting p{
+       position: relative;
+       left: 10px;
+       color: #000;
+   }
+   .senior p{
+       position: relative;
+       left: 10px;
+       color: #000;
+   }
+   .interview p{
+       position: relative;
+       left: 10px;
+       color: #000;
+   } 
+   .interview .hours{
+      position: relative;
+      left: 40px;
+      color: #000;
+   }
+   .senior  .hours{
+       position: relative;
+      left: 40px;
+      color: #000;
+   }
+   .meeting  .hours{
+       position: relative;
+      left: 40px;
+      color: #000;
+   }
+.val-box7{
+    background-color: white;
+    width: 220px;
+    height: 310px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 19.4em;
+    margin-left: 25em;
+    line-height: 20px;
+}
+.val-box7 p{
+   position: relative;
+   bottom: 7em;
+   left: 20px;
+   font-size: 16px;
+   font-weight: 900;
+   color: #000;
+}
+.val-box6{
+    width: 80px;
+    height: 460px;
+    left: 67em;
+    bottom: 4.5em;
+    position: fixed;
+    background-color: #061647;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
