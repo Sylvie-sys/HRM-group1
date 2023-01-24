@@ -33,7 +33,6 @@ return (
         </div>
         <div className="pass">
         <TextFieldExplained 
-        icon={<img src="" alt="" className='icon'/>} 
         onChange={onPasswordChange} name="password" 
         type="password" variant="two" label="Enter password"/>
         <Link to={""} className="passli">Forgot password?</Link>

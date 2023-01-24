@@ -68,7 +68,7 @@ margin-right: 12px;
 .line3{
     height: 1px;
     width: 106px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
     top: 7.7em;
     left: 22em;

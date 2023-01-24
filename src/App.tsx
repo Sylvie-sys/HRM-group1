@@ -3,6 +3,7 @@ import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from "./Components/login-page/calling"
 import Signup from './routes/signup';
+import PasswordForm from './component/Password';
 
 const router = createBrowserRouter([
   {
@@ -12,10 +13,12 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Signup/>
-  }
-
-
-
+  },
+  {
+    path: "/password",
+    element: <PasswordForm/>
+  },
+  
 ]);
 
  function App() {

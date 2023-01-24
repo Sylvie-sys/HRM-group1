@@ -12,7 +12,7 @@
 
 
 .filled input{
-    border: 1px solid rgb(110, 108, 108);
+    border: 1px solid #6e6c6c;
     background-color: transparent;
     border-radius: 3px;
 }
