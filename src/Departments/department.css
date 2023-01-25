@@ -1,0 +1,101 @@
+.DepartContainer{
+    background: conic-gradient(from -27.5deg at 22.3% 14.26%, rgba(145, 184, 243, 0.612829) -169.09deg, #91B8F3 152.82deg, rgba(145, 184, 243, 0) 174.35deg, rgba(145, 184, 243, 0.612829) 190.91deg, #91B8F3 512.82deg);
+   width: 100%;
+   height: 100%;
+
+}
+.DepartContainer button{
+display: flexbox;
+
+
+}
+.inpute{
+    position: relative;
+    display: flex;
+    width: 50%;
+    align-items: center;
+  margin: 20px;
+    }
+    .inpute_box{
+
+        width: 100%;
+        border-radius: 50px;
+        padding: 20px 30px;
+        font-size: 15px;
+        border: none;
+        transition: 0.2s;
+        box-shadow: inset 0 0 5px black;
+    }    
+
+    .inpute_submit:hover {
+        background-color: cornflowerblue;
+    }
+    .inpute_submit:active{
+        transform: scale(0.8);
+        box-shadow: 0 0 5px black;
+    }
+    .inpute_box:focus{
+        box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
+        outline: none;
+    }
+    .inpute_submit{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin: 12px;
+        border-radius: 50px;
+        right: 0px;
+        border: none;
+        font-size: 5px;
+        background-color: cadetblue;
+        color: white;
+        transition: 0.2s all;
+        box-shadow: 0 0 10px black;
+        align-items: center;
+    }
+    .single_Text{
+        display: flex;
+        width: 70%;
+        height: 50%;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 15px;
+        /* background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg"); */
+        transition: 0.2s;
+        background-color: rgb(242, 245, 245) ;
+        position: absolute;
+        margin-left: 10%;
+        /* border-collapse: separate; */
+    }
+    .icon{
+        margin-left: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    @media (max-width:1200px){
+        .single_Text{
+            width: 40%;
+        }
+    }
+    
+    @media (max-width:70px){
+    .inpute {
+        width: 95%;
+    }
+    .todos{
+        width: 95%;
+    
+    }
+    .single_Text{
+        width: 100%;
+    }
+    }
+   .table1 tr td th{
+
+        padding: 10px;
+        
+        margin: auto;
+        
+        border-bottom: 1px solid black;
+
+        }

@@ -10,30 +10,28 @@ html, body{
 }
 .login-form{
     position: relative;
-    /*display: flex;*/
+    /* display: flex; */
     flex-direction: row;
     justify-content: center;
    align-items: center;
-   background-color: #071746;
-    width:  55%;
+   background-color:#213861;
+   width: 50%;
    height: 530px;
-   left: 29em;
-   top: 5em;
+   margin: 5rem 25%;
    border: 2PX solid black;
 }
 .createli{
     text-decoration: none;
     color: #546d91;
     position: relative;
-    left: 30.8em;
     font-weight: 700;
     font-size: 15px;
 }
 .passli{
     position: relative;
     color: #3e5372;
-    left: 40em;
-    top: 6em;
+    margin-left: 8em;
+    top: 6.5em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +43,6 @@ p{
     color: white;
     position: relative; 
     font-size: 15px;
-    left: 30.6em;
     
 }
 .dontli{
@@ -123,11 +120,11 @@ display: flex;
     flex-direction: row;
     align-items: center;
     height: 56px;
-    width: 100%;
+    width: 80%;
     max-width: 690px;
     position: relative;
     top: 6.5em;
-    margin: 40px 120px;
+    margin: 40px 10%;
     background-color: inherit;
    
 }
@@ -148,7 +145,7 @@ display: flex;
     display: none;
 }
 .txt-field-login input:not(:valid) ~ span.error-text{
-    color: red;
+    color: rgb(23, 158, 236);
 }
 .txt-field-login label{
     position: absolute;
@@ -178,13 +175,13 @@ display: flex;
 .txt-field-login.two input:focus ~ label, .two.not-empty label{
     top: 14px;
 }
-@media (max-width: 580px) {
+@media (max-width: 600px) {
 
     .txt-field-login input  {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
-
+@me
 
 
 

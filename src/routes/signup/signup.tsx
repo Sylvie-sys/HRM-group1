@@ -1,14 +1,19 @@
-import { ChangeEventHandler } from "react";
+import { ChangeEventHandler, FormEventHandler } from "react";
 import "./signup.css"
 import { TextFieldExplained } from "../../Components/text-field-explained";
 import Authentication from "../../data/repository/authentication-impl";
+import { Link } from "react-router-dom";
+
+const authenticateWithBackend=()=>{
+// email:string,
 
 
+}
 const authRepository = new Authentication();
 const Signup = () => {
 
-    let email = "";
-    let password = "";
+    let email= "";
+    let password= "";
     let number = "";
     const onEmailChange: ChangeEventHandler<HTMLInputElement> = (v) => {
         email = v.target.value;
@@ -20,6 +25,19 @@ const Signup = () => {
     }
     const onNumberChange: ChangeEventHandler<HTMLInputElement> = (v) => {
         password = v.target.value;
+
+    }
+    const onSubmitLoginForm: FormEventHandler<HTMLFormElement> =(evt) =>{
+          evt.preventDefault();
+//1.get data from the form
+const form =evt.target as HTMLFormElement;
+const emailElt =form.querySelector("input[name=email]");
+const passwordElt =form.querySelector("input[name=password]");
+// emailValue=emailElt.Value;
+// passwordValue=passwordElt.Value;
+
+// console.log(emailValue);
+// console.log(passwordValue)
 
     }
 
@@ -37,6 +55,12 @@ const Signup = () => {
     //     const user = await authRepository.register(newUser);
     //     console.log(user);
     // }
+
+
+
+
+
+
     return (
         <div className="create">
 
@@ -53,18 +77,20 @@ const Signup = () => {
                         <TextFieldExplained name="name" type="text" variant="two" label="LaststName" />
                     </div>
                         <div className="email-pass">
-                        <TextFieldExplained name="name" type="email" variant="two" label="Emails" />
-                        <TextFieldExplained name="number" type="number" variant="two" label="Phone number" />
+                        <TextFieldExplained onChange={onEmailChange} name="name" type="email" variant="two" label="Emails" errorText="Invalid Email"/>
+                        <TextFieldExplained onChange={onNumberChange} name="number" type="number" variant="two" label="Phone number" errorText="Invalid number"/>
                         </div>
                     <div className="singup-inputs-groups">
-                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
-                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
+                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" errorText="Strong Password"/>
+                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" errorText="Confirm Password"/>
                     </div>
                     </div>
-                    <button className='signup-btn'>Sign up</button>
+                    <button className='signup-btn'>Sign Up</button>
                     <div className="end">
                         <h5>Already have an account?</h5>
-                        <a href="">Sign in now</a>
+                        <a href="/login">Sign in now
+                        {/* <Link to="/calling">Sign in now</Link> */}
+                        </a>
                     </div>
                 </form>
             </div>

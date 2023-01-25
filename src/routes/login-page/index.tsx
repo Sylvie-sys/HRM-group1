@@ -1,5 +1,5 @@
 import { ChangeEventHandler, useState } from "react";
-// import { Link } from "react-router-dom";
+
 
 import "./style.css";
 
@@ -20,7 +20,6 @@ export const TextFieldExplained = ({ name, type = "text",  variant =  "one", lab
 }: Props) => {
     const [inputValue, setInputValue] = useState("");
     const inputId = name;
-    // const emptyInput = inputValue !== "" ? "not-empty" : "";
     let emptyInput;
     if(inputValue == ""){
         emptyInput = "";
@@ -46,7 +45,6 @@ export const TextFieldExplained = ({ name, type = "text",  variant =  "one", lab
         <span className="error-text">{errorText}</span>
         }
         <>{icon}</>
-        {/* <Link className="link" to="/signup">Sign up</Link> */}
         
     </div>
 }
