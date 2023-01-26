@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 
 const authenticateWithTheBackend =async(
-    apiUrl: String,
+    apiUrl: string,
     email: String,
     password: string
 ) =>{
-    const response= await fetch(apiUrl, {
+    const response= await fetch(encodeURI(apiUrl), {
       method: "post",
       headers:{
         "accept": "application/json",
         "Content-Type" : "application/json",
       } ,
-      body: JSON.stringify({email, password}) 
+      body: JSON.stringify({email, password})
     });
     
    if(!response.ok){
@@ -70,7 +70,7 @@ return (
         <Link to={""} className="passli">Forgot password?</Link>
         </div>
         <div className='btn'>
-    <button type='button' className='fil'>
+    <button type='submit' className='fil'>
     Sign In
     </button>
     <div className="dontli">
