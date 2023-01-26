@@ -1,0 +1,220 @@
+.employee-name{
+     position: relative;
+     color: #000; 
+     left: 2em;
+     font-size: 18px;
+    font-weight: 900;
+}
+.proj-man{
+    position: relative;
+    color: rgb(173, 170, 170);  
+    left: 2em;
+}
+.employee-depart{
+    position: relative;
+    color: rgb(173, 170, 170);  
+    left: 2em;
+    font-size: 14px;
+}
+.first-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 12.5em;
+    right: 60em;
+}
+.emplo-pm{
+   position: relative;
+   top: 5em;
+   right: 3em;
+   font-size: 12px;
+}
+.dat-hi{
+    position: relative;
+    color: rgb(173, 170, 170);  
+    left: 2em;
+    font-size: 14px;
+}
+.design-team{
+    position: relative;
+    color: rgb(173, 170, 170);  
+    left: 2em;
+    font-size: 14px;
+}
+.hiring-date{
+    position: relative;
+    color: rgb(173, 170, 170); 
+    left: 2em;
+    font-size: 14px;
+}
+.employee-email{
+    position: relative;
+    color: rgb(44, 43, 43); 
+    left: 2em; 
+    font-size: 14px;
+    top: 0.6em;
+}
+.phone-numb{
+    position: relative;
+    color: rgb(44, 43, 43); 
+    left: 0.8em;
+    font-size: 12px;
+    top: 0.9em;
+}
+.depart-datehire{
+  position: relative;
+  display: flex;
+  gap: 43px;
+  top: 4px;
+}
+.dt-hd{
+    position: relative;
+    display: flex;
+    gap: 32px;
+    top: 6px;
+  }
+.email-phonenumb{
+position: relative;
+right: 2em;
+top: 0.3em;
+}
+.other-div{
+   position: relative;
+   top: 4.5em;
+   left: 0.3em;
+   width: 220px;
+   height: 80px;
+   border-radius: 5px;
+   background-color: rgb(245, 243, 243);
+}
+
+.employee-heading{
+    position: fixed;
+    font-weight: 900;
+    margin-top: 9em;
+    left: 15.5em;
+    font-size: 19px;
+    color: rgb(15, 14, 14); 
+}
+.home-svg{
+    width: 26px;
+    height: 26px;
+    position: fixed;
+    right: 79.5em;
+    top: 120px;
+    fill: white;
+}
+.add{
+    position: relative;
+    left: 103.8em;
+    top: 7em;
+    padding: 0%;
+    font-size: 12px;
+    font-weight: 900;
+    width: 63px;
+    height: 20px;
+    color: rgb(106, 104, 104);
+}
+.filter{
+    position: relative;
+    left: 36em;
+    top: 6.8em;
+    padding: 0%;
+    font-size: 12px;
+    font-weight: 900;
+    width: 59px;
+    height: 20px;
+    color: rgb(106, 104, 104);
+}
+.dashb-tables{
+box-sizing: border-box;
+position: fixed;
+display: flex;
+ flex-direction: row;
+align-items: center;
+display: flex;
+align-items: center;
+left: 25em;
+top: 3em;
+}
+.dashb-table1{
+ position: relative;
+ width: 230px;
+ height: 200px;
+ background-color: #fff;
+ top: 8.7em;
+ right: 8em;
+ border-radius: 4px;
+ box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+}
+.dashb-table2{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    background-color: #fff;
+    top: 8.7em;
+    right: 7.2em;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+   }
+   .dashb-table3{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    background-color: #fff;
+    top: 8.7em;
+    right: 6.5em;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+   }
+   .dashb-table4{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    background-color: #fff;
+    top: 8.7em;
+    right: 5.7em;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+   }
+   .dashb-table5{
+    position: relative;
+    width: 230px;
+    height: 200px;
+    background-color: #fff;
+    top: 22em;
+    right: 65.5em;
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+   }
+   .dashb-table6{
+       position: relative;
+       width: 230px;
+       height: 200px;
+       background-color: #fff;
+       top: 22em;
+       right: 64.7em;
+       border-radius: 4px;
+       box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+    }
+      .dashb-table7{
+       position: relative;
+       width: 230px;
+       height: 200px;
+       background-color: #fff;
+       top: 22em; 
+       right: 64em;
+       border-radius: 4px;
+       box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+      }
+      .dashb-table8{
+       position: relative;
+       width: 230px;
+       height: 200px;
+       background-color: #fff;
+       top: 22em;
+       right: 63.2em;
+       border-radius: 4px;
+       box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
+      }
