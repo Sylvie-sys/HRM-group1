@@ -37,8 +37,8 @@ const Dashboard = () => {
                 <p className='i-name'>You need to hire</p>
         </div>
         <div className="values">
-        <div className="boxes">
-           <div className="box1">
+        <div className="dashb-boxes">
+           <div className="dashb-box1">
            <h3 className='num'>2</h3>
            <div className="pm-cand">
            <p className='pm'>Project manager</p>
@@ -46,7 +46,7 @@ const Dashboard = () => {
            </div>
            <div className='circle1'></div>
            </div>
-           <div className="box2">
+           <div className="dashb-box2">
            <h3 className='num'>1</h3>
            <div className="pm-cand">
            <p className='pm'>Senior UI/UX design</p>
@@ -54,7 +54,7 @@ const Dashboard = () => {
            </div>
            <div className='circle4'></div>
            </div>
-           <div className="box3">
+           <div className="dashb-box3">
            <h3 className='num'>3</h3>
            <div className="pm-cand">
            <p className='pm'>Content manager</p>
@@ -62,7 +62,7 @@ const Dashboard = () => {
            </div>
            <div className='circle2'></div>
            </div>
-           <div className="box4">
+           <div className="dashb-box4">
            <h3 className='num'>10</h3>
            <div className="pm-cand">
            <p className='pm'>JavaScript Developer</p>
@@ -82,14 +82,17 @@ const Dashboard = () => {
       </div>
       <div className='time'>
       <div className='interview'>
+      <img src="src/assets/time.svg" alt="" className="time1-svg"/>
         <p className='hours'>08:00 - 11:00 Am</p>
         <p  className='interv'>Interview with candidates</p>
       </div>
       <div className='senior'>
+      <img src="src/assets/time.svg" alt="" className="time2-svg"/>
         <p className='hours'>03:10 - 4:40 Pm</p>
         <p className='interv'>Interview with candidates</p>
       </div>
       <div className='meeting'>
+      <img src="src/assets/time.svg" alt="" className="time3-svg"/>
         <p className='hours'>02:00 - 03:00 Pm</p>
         <p className='interv'>Interview with candidates</p>
       </div>
@@ -97,15 +100,16 @@ const Dashboard = () => {
     </div>
   </div>
   <div className="val-box6">
-    <i></i>
     <div className='box9'>
-      <h3 className='numb'></h3>
-      <p></p>
-      <p></p>
+      
     </div>
   </div>
   <div className="val-box7">
-      <p>Chart showing percentage <br/> of employee</p>
+      <p className="chart">Chart showing percentage <br /> of employee</p>
+      <div className="fe-male">
+      <p className="male">Male</p>
+      <p className="female">Female</p>
+      </div>
   </div>
     </div> 
     </div>

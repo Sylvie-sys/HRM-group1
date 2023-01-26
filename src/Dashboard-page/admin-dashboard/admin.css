@@ -6,21 +6,28 @@ box-sizing: border-box;
 box-shadow: none;
 }
 html, body{
-    background-color: #E5E7E8;
+ background-color: #E5E7E8;
+ width: 100%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center; 
 }
 .dyn{
-  color: white;
-  font-size: 28px;
-  position:relative;
-  right: 6.6em;
-  margin-bottom: 6em;
+        position: fixed;
+        font-weight: 900;
+        font-size: 26px;
+        left: 3.8em;
+        top: 32px;
+        color: #fff;
 }
 .hom-svg{
     width: 26px;
     height: 26px;
-    position: relative;
-    left: 2em;
-    top: 82px;
+    position: fixed;
+    right: 79.5em;
+    top: 120px;
     fill: white;
 }
 .language-selector{
@@ -28,30 +35,39 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
-    left: 87em;
+    position: relative;
 } 
 .lang-sele{
     background-color: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 39em;
 }
 .line2{
-width: 250px;
+width: 248px;
 height: 1px;
-top: 492px;
-left: 3px;
+top: 442px;
+left: 5px;
 justify-content: center;
 align-items: center;
 display: flex;
 position: fixed;
-background-color: rgb(149, 147, 147);
+background-color: rgb(164, 162, 162);
 }
 .dashb{
     max-width: 900px;
     height: 200px;
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .menu-sgvs{
   display: flex;
@@ -65,9 +81,7 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    /* right: 46em;
-    bottom: 4px; */
-    top: 36.2em;
+    top: 32.6em;
     left:  68px;
     fill: white;
 }
@@ -75,15 +89,15 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 33.5em;
+    top: 29.7em;
     left: 64px;
     fill: white;
 }
 .plot-svg{
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     position: fixed;
-    top: 11em;
+    top: 10.6em;
     left: 60px;
     fill: white;
 }
@@ -91,7 +105,7 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 22.7em;
+    top: 20.1em;
     left: 64px;
     fill: white;
 }
@@ -99,16 +113,40 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 15em;
+    top: 13.7em;
     left: 64px;
     fill: white;
 }
 .time-svg{
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     position: fixed;
-    top: 26.6em;
+    top: 23.6em;
     left: 64px;
+    fill: white;
+}
+.time1-svg{
+    width: 12px;
+    height: 12px;
+    position: fixed;
+    left: 24.7em;
+    bottom: 12.4em;
+    fill: white;
+}
+.time2-svg{
+    width: 12px;
+    height: 12px;
+    position: fixed;
+    left: 24.7em;
+    bottom: 9.2em; 
+    fill: white;
+}
+.time3-svg{
+    width: 12px;
+    height: 12px;
+    position: fixed;
+    left: 24.7em;
+    bottom: 6.2em;
     fill: white;
 }
 .menu{
@@ -125,11 +163,11 @@ top: 2em;
     list-style: none;
     padding: 15px, 90px;
     transition:  0.3s ease;
-    left: 40px;
-    top: 100PX;
+    left: 60px;
+    top: 110PX;
 }
 .menu .items li :hover{
-    background-color: #253647;
+    /* background-color: #d5d5da; */
     cursor: pointer;
 }
 .menu .items li:nth-child(1){
@@ -138,42 +176,44 @@ top: 2em;
 .menu .items li:nth-child(2){
     position: relative;
     top: 130px;
-    left: 52px;
+    left: 74px;
 }
 .menu .items li:nth-child(3){
     position: relative;
-    top: 164px;
-    left: 60px
+    top:147px;
+    left: 84px
 }
 .menu .items li:nth-child(4){
     position: relative;
-    top: 200px;
+    top: 170px;
+    left: 4em;
 }
 .menu .items li:nth-child(5){
     position: relative;
-    top: 230px;  
+    top: 189px; 
+    left: 4em; 
 }
 .menu .items li:nth-child(6){
     position: relative;
-    top: 260px;
-    margin-right: 92px;
+    top: 214px;
+    left: 3.4em;
 }
 .menu .items li:nth-child(7){
     position: relative;
-    top: 340px;
-    
+    top: 280px;
+    left: 3.3em;
 }
 .menu .items li:nth-child(8){
     position: relative;
-    top: 355px;
-    left: 49px;
+    top: 295px;
+    left: 60px;
 }
-.menu .items li :hover a{
-          color:#F3F4F6;
+.menu .items li:hover a{
+          color:#4747da;
 }
 .menu .items li a{
     text-decoration: none;
-    color: rgb(134, 141, 151);
+    color: #fff;
     font-weight: 300px;
     width: 100%;
     height: 100%;
@@ -183,14 +223,6 @@ top: 2em;
     margin: 0 10px 0 25px;
     transition:  0.3s ease;
 }
-/* .line1{
-    width: 250px;
-    background-color: #818486;
-    height: 1px;
-    position: relative;
-    top: 22.7em; 
-   
-} */
 .circle2{
 box-sizing: border-box;
 position: relative;
@@ -205,7 +237,7 @@ width: 40px;
 border-radius: 20px;
 border-left: 5px solid rgb(201, 192, 192);
 height: 40px;
-left: 260px;
+left: 265px;
 bottom: 70px;
 background: #FFFFFF;
 }
@@ -213,10 +245,10 @@ background: #FFFFFF;
 box-sizing: border-box;
 position: relative;
 border: 5px solid rgb(201, 16, 16);
-width: 40px;
+width: 50px;
 border-radius: 20px;
 border-left: 5px solid rgb(201, 192, 192);
-height: 40px;
+height: 50px;
 left: 740px;
 bottom: 85px;
 background: #FFFFFF;
@@ -243,10 +275,10 @@ background: #FFFFFF;
         flex-direction: row;
         align-items: center;
         border: 5px solid rgb(248, 123, 21);
-        width: 40px;
+        width: 38px;
         border-radius: 20px;
         border-left: 5px solid rgb(201, 192, 192);
-        height: 40px;
+        height: 38px;
         left: 270px;
         bottom: 68px;
         background: #FFFFFF;
@@ -283,12 +315,10 @@ background: #FFFFFF;
     align-items: center;
     padding: 2px 190px;
     position: relative;
-    left: 2em; 
-    width: 492px;
-    height: 32px;
+    left: 2.5em; 
+    width: 452px;
+    height: 28px;
     border-radius: 50px;
-    border: 2px solid #bbbdbc;
-    border-bottom: 2px solid #bbbdbc;
     background-color: white;
     
 }
@@ -296,14 +326,14 @@ background: #FFFFFF;
     border: none;
     outline: none;
     font-size: 14px;
-    right: 155px;
+    right: 175px;
     position: relative;
     font-weight: 500; 
     
 }
 .search-svg{
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
   position: relative;
   right: 180px;
   top: 2px;
@@ -311,11 +341,12 @@ background: #FFFFFF;
 .i-name{
     position: fixed;
     font-weight: 900;
-    margin-top: 12em;
-    left: 21em;
-    color: black;
+    margin-top: 9em;
+    left: 19em;
+    font-size: 19px;
+    color: rgb(15, 14, 14);
 } 
-.boxes{
+.dashb-boxes{
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -324,142 +355,158 @@ background: #FFFFFF;
   right:3em;
   top: 2em;
 }
-.boxes .box1{
+.dashb-boxes .dashb-box1{
     position: relative;
-    top: 16em;
-    right: 59px;
+    top: 15.2em;
+    left: 67px;
     background-color: #FFFFFF;
     width: 332px;
     height: 56px;
     border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(196, 192, 192);
 }
-.boxes .box1 .pm-cand{
+.dashb-boxes .dashb-box1 .pm-cand{
     position: relative;
     right: 30em;
     bottom: 2em;
 }
-.boxes .box1 .num{
-  font-size: 36px;
-  font-weight: 900;
+.dashb-boxes .dashb-box1 .num{
+  font-size: 32px;
+  font-weight: 700;
   position: relative;
-  right: 3.5em;
+  right: 4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-.boxes .box1 .pm{
+.dashb-boxes .dashb-box1 .pm{
     font-weight: 900;
     color: #000;
 }
-.boxes .box1 .cand{
+.dashb-boxes .dashb-box1 .cand{
     font-size: 15px;
     color: #000;
+    position: relative;
+    left: 29.7em;
 }
-  .boxes .box2{
+  .dashb-boxes .dashb-box2{
       position: relative;
-      top: 17em;
-      right: 59px;
+      top: 16.2em;
+      left:67px;
       background-color: #FFFFFF;
       width: 332px;
       height: 56px;
       border-radius: 15px;
+      box-shadow: 1px 1px 1px 1px rgb(196, 192, 192);
   }
-  .boxes .box2 .pm-cand{
+  .dashb-boxes .dashb-box2 .pm-cand{
       position: relative;
       right: 30em;
       bottom: 2em;
   }
-  .boxes .box2 .num{
-    font-size: 36px;
-    font-weight: 900;
+  .dashb-boxes .dashb-box2 .num{
+    font-size: 32px;
+    font-weight: 700;
     position: relative;
-    right: 3.5em;
+    right: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   }
-  .boxes .box2 .pm{
+  .dashb-boxes .dashb-box2 .pm{
       font-weight: 900;
       color: #000;
+      left: 31.5em;
   }
-  .boxes .box2 .cand{
+  .dashb-boxes .dashb-box2 .cand{
       font-size: 15px;
       color: #000;
+      left: 29.6em;
   }
-  .boxes .box3{
+  .dashb-boxes .dashb-box3{
     position: relative;
-    top: 9em;
-    left: 290px;
+    top: 8.2em;
+    left: 420px;
     background-color: #FFFFFF;
     width: 332px;
     height: 56px;
     border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(196, 192, 192);
 }
-.boxes .box3 .pm-cand{
+.dashb-boxes .dashb-box3 .pm-cand{
     position: relative;
-    right: 30em;
+    right: 31em;
     bottom: 2em;
 }
-.boxes .box3 .num{
-  font-size: 36px;
-  font-weight: 900;
+.dashb-boxes .dashb-box3 .num{
+  font-size: 32px;
+  font-weight: 700;
   position: relative;
-  right: 3.5em;
+  right: 4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-.boxes .box3 .pm{
+.dashb-boxes .dashb-box3 .pm{
     font-weight: 900;
     color: #000;
+    left: 31.8em;
 }
-.boxes .box3 .cand{
+.dashb-boxes .dashb-box3 .cand{
     font-size: 15px;
     color: #000;
 }
-.boxes .box4{
+.dashb-boxes .dashb-box4{
     position: relative;
-    top: 10em;
-    left: 290px;
+    top: 9.2em;
+    left: 424px;
     background-color: #FFFFFF;
     width: 332px;
     height: 56px;
     border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(196, 192, 192);
 }
-.boxes .box4 .pm-cand{
+.dashb-boxes .dashb-box4 .pm-cand{
     position: relative;
-    right: 30em;
+    right: 31em;
     bottom: 2em;
 }
-.boxes .box4 .num{
-  font-size: 36px;
-  font-weight: 900;
+.dashb-boxes .dashb-box4 .num{
+  font-size: 32px;
+  font-weight: 700;
   position: relative;
-  right: 3.5em;
+  right: 4em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-.boxes .box4 .pm{
+.dashb-boxes .dashb-box4 .pm{
     font-weight: 900;
     color: #000;
+    left: 32.5em;
 }
-.boxes .box4 .cand{
+.dashb-boxes .dashb-box4 .cand{
     font-size: 15px;
     color: #000;
+    left: 30.8em;
 }
 .val-box5{
     background-color: white;
     width: 430px;
-    height: 300px;
+    height: 280px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    right: 54px;
-    top: 13em;
+    left: 67px;
+    top: 12.4em;
     line-height: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(208, 205, 205);
 }
 .remind{
     position: relative;
-    right: 132px;
-    bottom: 50px;
+    right: 122px;
+    bottom: 45px;
    font-size: 20px;
    font-weight: 500;
    }
    .search2{
-       height: 20px;
+       height: 18px;
        position: absolute;
-       left: 24em;
-       top: 1em;
+       left: 23.8em;
+       top: 0.8em;
        color: #444a53;
    }
    .box{
@@ -482,6 +529,7 @@ background: #FFFFFF;
       border-radius: 6px;
       height: 28px;
       color: #000;
+      font-weight: 900;
       align-items: center;
       justify-content: start;
    }
@@ -490,7 +538,7 @@ background: #FFFFFF;
        position: relative;
        left: 80px;
        font-size: 18px;
-       font-weight: 500;
+       font-weight: 900;
        top: 8px;
        color: #000;
    }
@@ -507,7 +555,7 @@ background: #FFFFFF;
    }
    .senior{
        position: relative;
-       top: 16px;
+       top: 11px;
        right: 22px;
        background-color: #f0f1f1;
        width: 390px;
@@ -515,7 +563,7 @@ background: #FFFFFF;
    }
    .meeting{
        position: relative;
-       top: 28px;
+       top: 20px;
        right: 22px;
        background-color: #f0f1f1;
        width: 390px;
@@ -523,59 +571,82 @@ background: #FFFFFF;
    }
    .meeting p{
        position: relative;
-       left: 10px;
        color: #000;
+       left: -102px;
    }
    .senior p{
        position: relative;
-       left: 10px;
+       left: -102px;
        color: #000;
    }
    .interview p{
        position: relative;
-       left: 10px;
+       left: -102px;
        color: #000;
    } 
    .interview .hours{
       position: relative;
-      left: 40px;
-      color: #000;
+      left: -110px;
+      color: rgb(179, 176, 176);
    }
    .senior  .hours{
        position: relative;
-      left: 40px;
-      color: #000;
+       left: -111px;
+       color: rgb(179, 176, 176);
    }
    .meeting  .hours{
        position: relative;
-      left: 40px;
-      color: #000;
+       left: -111px;
+      color: rgb(179, 176, 176);
    }
 .val-box7{
     background-color: white;
-    width: 220px;
-    height: 310px;
+    width: 232px;
+    height: 285px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    top: 19.4em;
-    margin-left: 25em;
+    top: 19.2em;
+    margin-left: 32.6em;
     line-height: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(208, 205, 205);
+
 }
-.val-box7 p{
+.val-box7 .chart{
    position: relative;
    bottom: 7em;
    left: 20px;
-   font-size: 16px;
+   font-size: 15px;
    font-weight: 900;
    color: #000;
+   /* line-height: 1em;
+   height: 2em;      
+   overflow: hidden;  */
 }
+.fe-male{
+position: relative;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+right: 38em;
+}
+.male{
+top: 6em;
+color: #000;
+border-left: 6px solid rgb(185, 185, 251);
+}
+.female{
+    top: 7em;
+    color: #000;
+    border-left: 6px solid rgb(250, 190, 130);
+    }
 .val-box6{
-    width: 80px;
-    height: 460px;
-    left: 67em;
-    bottom: 4.5em;
+    width: 70px;
+    height: 434px;
+    left: 69em;
+    bottom: 2em;
     position: fixed;
     background-color: #061647;
     align-items: center;
