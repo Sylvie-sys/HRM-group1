@@ -1,25 +1,87 @@
 
-.outlined, .filled{
-  background-color: white ;
-  
+body{
+    background-color: #b9c9e2;
+    max-width: 100%;
+    position:relative;
 }
-.outlined, .filled, input{
-    padding: 20px;
-    border: none;
-    color: black;
-   
+#form-1{
+    background-color: #213861;
+    width: 900px;
+    height: 500px;
 }
+.right-button{
+    background-color: aliceblue;
+    color: rgb(119, 117, 117);
+    margin-top: 10px;
+    margin-right: 750px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 0px;
 
+}
+.left-button{
+        background-color: aliceblue;
+        color: rgb(105, 104, 104);
+        margin-left: 750px;
+        position: relative;
+        top: -60px;
+        width: 90px;
+        height: 30px;
+        font-size: 20px;
+        padding: 2px;
+        font-family: bold;
+        border-radius: 5px;
+}
+.inputs{
+display: inline;
+align-items: center;
+justify-content: center;
+gap: 50px;
+}
+.inputs input{
+    margin-top: 20px;
+    width:300px ;
+    height: 20px;
+    font-weight: bolder;
+    
+} 
+.uploadbutton{
+    margin-right: 700px;
+    position: relative;
+    bottom: -90px;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(128, 126, 126);
+    border: 0px;
+    padding: 2px;
+}
+.last-button{
+    /* margin-left: 650px;
+    position: relative;
+    bottom: -145px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: #213861;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size: 18px;
+    font-weight: bold; */
+    width: 200px;
+    height: 40px;
+    float: right;
+    position: relative;
+    bottom: -45px;
+    right: 20px;
+    color: white;
+    background-color: #213861;
+    box-shadow: 2px 2px 2px 2px black;
+    font-size: 18px;
+    font-weight: bold;
+    
 
-.filled input{
-    border: 1px solid rgb(110, 108, 108);
-    background-color: transparent;
-    border-radius: 3px;
 }
-.outlined input{
- 
-    border-bottom: 1px solid rgb(110, 108, 108);
-    background-color: rgb(248, 243, 243);
-   
-}
- 

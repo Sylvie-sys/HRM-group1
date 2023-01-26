@@ -16,13 +16,34 @@ type Props = {
 const Input =(props: Props) =>{
    
 return(
+    <form id="form-1">
+    <div>
+        <button className="right-button"> Upload photo</button>
+        <button className="left-button"> Edit</button>
+    </div>
+    <div className="inputs">
+        <div className="inputs1">
+            <input type="text" placeholder="Employee name" />
+            <input type="text" placeholder="Employee ID" /> 
+        </div>
+            <div className="inputs2">
+                <input type="email" placeholder="Employee Email" />
+                <input type="text" placeholder="Employee phone number" /> 
+            </div>
+            <div className="inputs3">
+                <input type="text" placeholder="Employee education level" />
+                <input type="text" placeholder="Sex" /> 
+            </div>
+            <div className="inputs3">
+                    <input type="text" placeholder="Employee Skills" />
+                    <input type="text" placeholder="Address" /> 
+            </div>
+            </div>
+                    <button className="uploadbutton"> Upload Document</button>
+                    <button className="last-button">save changes</button> 
+    </form>
+)
 
-     <div className={`text-field ${props.variant}`}>
-         <label>{props.label}</label>
-        <input type={props.type} placeholder={props.label} />
-        
-        <span>{props.helperText}</span>
-     </div>
 
    
 
