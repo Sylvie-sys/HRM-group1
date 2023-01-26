@@ -21,6 +21,13 @@ body{
     font-size: 11px;
     padding: 0px;
 
+
+
+.filled inpute{
+    border: 1px solid #6e6c6c;
+    background-color: transparent;
+    border-radius: 3px;
+
 }
 .left-button{
         background-color: aliceblue;
