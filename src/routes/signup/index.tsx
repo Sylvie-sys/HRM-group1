@@ -23,27 +23,27 @@ const Signup = () => {
 
     }
 
-    const createUser = async (evt: any) => {
-        evt.preventDefault();
+    // const createUser = async (evt: any) => {
+    //     evt.preventDefault();
 
-        const newUser: NewUser = {
-            email: "test@email.com",
-            password: "Abcd@1234",
-            first_name: "Test",
-            last_name: "User",
-            phone_number: "2507883212342"
-        };
+    //     const newUser: NewUser = {
+    //         email: "test@email.com",
+    //         password: "Abcd@1234",
+    //         first_name: "Test",
+    //         last_name: "User",
+    //         phone_number: "2507883212342"
+    //     };
 
-        const user = await authRepository.register(newUser);
-        console.log(user);
-    }
+    //     const user = await authRepository.register(newUser);
+    //     console.log(user);
+    // }
     return (
         <div className="create">
 
             <div className="container">
 
 
-                <form action="" onSubmit={createUser} className="signup-form">
+                <form action="" className="signup-form">
                     <div className='header-text'>
                         <h3>Create Account</h3>
                     </div>
