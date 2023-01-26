@@ -24,6 +24,62 @@
     top: 12.5em;
     right: 60em;
 }
+.two-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 12.3em;
+    right: 45em;
+}
+.three-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 12.5em;
+    right: 30em;
+}
+.four-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 12.2em;
+    right: 14.5em;
+}
+.five-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 25.5em;
+    right: 60em;
+}
+.six-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 25.5em;
+    right: 45em;
+}
+.sev-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+    top: 25.5em;
+    right: 30em;
+}
+.eight-pic{
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 25.5em;
+    right: 15em;
+}
 .emplo-pm{
    position: relative;
    top: 5em;

@@ -94,33 +94,68 @@
     top: 7.3em;
  }
 table{
-    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    border-collapse: collapse;
+    width: 70%;
+    position: fixed;
     padding: 0;
     margin: 0;
+    
+}
+thead tr td{
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-weight: 40px;
+    text-align: start;
+    padding: 45px;
+    /* background-color: #fff; */
+     left: 28em;
+    top: 3em; 
+    height: 390px;
+}
+
+tbody tr td {
+    padding: 39px 60px;
+    left: 10em;
+    position: relative;     
+   overflow: hidden;
 }
 table thead{
 position: relative;
-left: 22em;
-top: 4em;
-line-height: 12px;
+left: 24em;
+top: 3em;
+line-height: 12px; 
 display: flex;
 }
- table thead td{
-     position: relative; 
-     
+ table thead tr td{
+    position: relative;
+}
+.first-line{
+    font-weight: 900;
+    font-size: 19px;
+}
+.first-ln{
+    font-weight: 900;
+    font-size: 19px;
+    left: 21em;
+
+}
+table thead{
+    right: 4.3em;
+    top: 0em;
 }
 table tbody{
-    position: relative;
-    right: 4.3em;
-    top: 10em;
+    position: relative; 
+    right: 15.3em;
+    top: 14em;
 }
 .searchinput{
-    position: relative;
+    /* position: relative; */
     left: 42em;
     bottom: 5em;
     width: 250px;
@@ -129,12 +164,19 @@ table tbody{
 }
 .svgsearch{
 position: relative;
-left: 51em;
-bottom: 4em;
-width: 22px;
-height: 22px;
+left: 2em;
+top: 0.1em;
+width: 20px;
+height: 20px;
 }
-
+.searchinputsvg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35em;
+    bottom: 3.4em;
+}
 
 
 
