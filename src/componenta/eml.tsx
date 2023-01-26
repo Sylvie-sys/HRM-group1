@@ -1,9 +1,9 @@
-import PasswordForm from "../component/Password";
+import EmailForm from "../component/Password";
 
 
 function App(){
     return<div className="page">
-<PasswordForm/>
+<EmailForm/>
         </div>
     
 }
