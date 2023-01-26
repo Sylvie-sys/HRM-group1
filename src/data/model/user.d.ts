@@ -15,3 +15,4 @@ interface User{
     active: boolean,
     isVerified: boolean,
 }
+interface 

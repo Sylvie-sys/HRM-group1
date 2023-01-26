@@ -41,21 +41,10 @@ const onSubmitLoginForm: FormEventHandler<HTMLInputElement> = (evt) =>{
     
 }
 
-    // const onEmailChange: ChangeEventHandler<HTMLInputElement> = (v) => {
-    //     email = v.target.value;
-        
-    // }
-    // const onPasswordChange: ChangeEventHandler<HTMLInputElement> = (v) => {
-    //     password = v.target.value;
-        
-    // }
-
+  
     const loginAction = (evt: any) => {
         evt.preventDefault();
-        // const cred = {email, password};
-        // // call the auth api
-        // console.log(cred);
-        
+       
     }
 
 return (

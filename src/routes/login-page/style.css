@@ -45,10 +45,11 @@ p{
     font-size: 15px;
     
 }
-.dontli{
-display: flex;
-margin-top: 52px;
-margin-right: 12px;
+.create .dontli{
+margin-top: -60px;
+margin-left: 70px;
+text-align: center;
+
 }
 .login{
     display: flex;
@@ -75,13 +76,16 @@ margin-right: 12px;
     margin-left: -11em;
     margin-top: 7em;
     font-family: sans-serif;
+    /* background-color: #213861; */
+    
+
 }
 .fil{
      display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     background: #48699e;
     font-weight: 400;
     color: #f6fafd;
@@ -90,19 +94,23 @@ margin-right: 12px;
     padding: 9px 70px;
     border: none;
     font-weight: 700;
-    margin-left: 27em;  
+    margin-left: 27em; 
+    cursor: pointer; 
+    transition: all 0.3s ease;
+    margin-top:35px ;
 }
 .fil:hover {
 background-color: white;
 padding: 9px 69px;
 color: #3a5b8b;
 }
-.logcheck{
+.create .logcheck{
     position: relative;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     top: 58px;
     left: 152px;
 }
