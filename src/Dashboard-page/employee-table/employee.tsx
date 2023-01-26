@@ -43,7 +43,7 @@ const Employee = () => {
          </div>
         <div className="dashb-tables">
         <div className="dashb-table1">
-        <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+        <img src="src/assets/firstpic.jpeg" alt="" className="first-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Bayisenge Shaila</p> 
            <p className="proj-man">Project Manager</p>
@@ -64,7 +64,7 @@ const Employee = () => {
             </div>
         </div>
         <div className="dashb-table2">
-        <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+        <img src="src/assets/secondpic.jpeg" alt="" className="two-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Kwizera M Solange</p> 
            <p className="proj-man">Assistant Project Manager</p>
@@ -85,7 +85,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table3">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/thirdpic.jpeg" alt="" className="three-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Ingabire Nadine</p> 
            <p className="proj-man">UI/UX Designer</p>
@@ -106,7 +106,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table4">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/forthpic.jpeg" alt="" className="four-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Rachel Mutoni</p> 
            <p className="proj-man">Project Manager</p>
@@ -127,7 +127,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table5">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/fifthpic.jpg" alt="" className="five-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Irumva Mahoro Sylvie</p> 
            <p className="proj-man">Assistant Project Manager</p>
@@ -148,7 +148,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table6">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/sixthpic.jpeg" alt="" className="six-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Gahonde Isimbi Gloria</p> 
            <p className="proj-man">Supervisor</p>
@@ -169,7 +169,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table7">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/seventhpic.jpeg" alt="" className="sev-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Iradukunda Kevine</p> 
            <p className="proj-man">Project Manager</p>
@@ -190,7 +190,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table8">
-            <img src="src/assets/profile-image.jpeg" alt="" className="first-pic"/>
+            <img src="src/assets/eightpic.jpeg" alt="" className="eight-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Umutoni Benithe</p> 
            <p className="proj-man">Assistant Project Manager</p>

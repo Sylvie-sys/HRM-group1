@@ -13,13 +13,15 @@ const Depart =  () =>{
         <div>
           <h2 className="hrms-dashb">HRMS</h2>
          <h1 className="depar-list">DEPARTMENT LIST</h1>
+        <div className="searchinputsvg">
          <img src="src/assets/search.svg" alt="" className="svgsearch"/>
-         <input type="text" placeholder="search something...." className="searchinput"/>
+         <input type="text" placeholder="search something............." className="searchinput"/>
+         </div>
          </div>
         <table>
         <thead> 
           <tr>
-          <td>#</td>
+          <td className="first-ln">#</td>
             <td>DEPARTMENTS NAME</td>
             <td>DEPARTMENTS HEAD</td>
             <td>TOTAL EMPLOYEE</td>
@@ -28,19 +30,19 @@ const Depart =  () =>{
           </thead>
             <tbody>
           <tr>
-            <td>01</td>
+            <td className="first-line">01</td>
             <td>DESIGN TEAM</td>
             <td>Bayisenge Shaila</td>
             <td>7</td>
           </tr>
           <tr>
-            <td>02</td>
+            <td className="first-line">02</td>
             <td>BACKEND TEAM</td>
             <td>Benithe</td>
             <td>10</td>
           </tr>
           <tr>
-            <td>01</td>
+            <td className="first-line">01</td>
             <td>FRONTEND TEAM</td>
             <td>Rachel Mutoni</td>
             <td>8</td>
