@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    }
+    html, body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #ADC9F4; */
+    }
+.department{
+    max-width: 900px;
+    height: 200px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.depar-list{
+    position: fixed;
+    font-weight: 100;
+    font-size: 26px;
+    left: 14em;
+    top: 62px;
+}
+.hrms-dashb{
+    position: fixed;
+    font-weight: 900;
+    font-size: 26px;
+    left: 3.8em;
+    top: 31px;
+    color: #fff;
+} 
+.homee-svg{
+    width: 26px;
+    height: 26px;
+    position: fixed;
+    right: 79.5em;
+    top: 120px;
+    fill: white;
+}
+.three-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 7em;
+    top: 19em; 
+}
+.editbtn{
+   width: 99px;
+   height: 29px;
+   padding: 2px;
+   font-size: 16px;
+   color: rgb(66, 66, 132);
+   justify-content: center;
+   position: relative;
+   display: flex;
+   right: 19em;
+    top: 10.8em;
+}
+.addbtn{
+    width: 99px;
+    height: 29px;
+    padding: 2px;
+    font-size: 16px;
+    color: rgb(66, 66, 132);
+    justify-content: center;
+    position: relative;
+    display: flex;
+    right: 11em;
+    top: 9em;
+ }
+ .savebtn{
+    width: 99px;
+    height: 29px;
+    padding: 2px;
+    font-size: 16px;
+    color: rgb(66, 66, 132);
+    justify-content: center;
+    position: relative;
+    display: flex;
+    right: 3em;
+    top: 7.3em;
+ }
+table{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+table thead{
+position: relative;
+left: 22em;
+top: 4em;
+line-height: 12px;
+display: flex;
+}
+ table thead td{
+     position: relative; 
+     
+}
+table tbody{
+    position: relative;
+    right: 4.3em;
+    top: 10em;
+}
+.searchinput{
+    position: relative;
+    left: 42em;
+    bottom: 5em;
+    width: 250px;
+    border-radius: 20px;
+    padding: 8px 40px;
+}
+.svgsearch{
+position: relative;
+left: 51em;
+bottom: 4em;
+width: 22px;
+height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

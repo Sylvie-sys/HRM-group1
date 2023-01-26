@@ -2,7 +2,7 @@
     margin:0 ;
     box-sizing: border-box;
     font-family: "CustomFont";
-    background-color: rgb(198, 198, 248);
+    /* background-color: rgb(198, 198, 248); */
 
 }
 @font-face{
@@ -11,18 +11,17 @@
 
 }
 .page{
-    height: 100vh;
-    width: 100%;
+    height: 150vh;
+    width: 160%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cover{
+.Email{
     background-color: rgb(198, 198, 248);
-    width:em;
-    height: 15em;
-    position: relative;
-    display: flex;
+    background-size: 50%;
+    width:60em;
+    height: 30em;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
@@ -31,44 +30,50 @@
     outline-color:rgb(32,177,255);
 
 }
-.cover input{
+.Email input{
      background-color:  #2E4B73;
      position: relative;
-     right: 68px;
+     right: 30%;
      color: white;
+     top: 40%;
+     font-size: 20px;
      
 
 }
 .confirm{
     position: relative;
-    right: 105px;
+    top: 50%;
+    right: 530px;
     color: white;
-  background:  #2E4B73;
-  font-weight: bold;
-  border-radius: 0;
+    background:  #2E4B73;
+    font-weight: bold;
+    border-radius: 0;
   
  
 }
-.cover h1{
+.Email h1{
     color: white;
     font-size: 30px;
-    right: 11px;
+    right: 50px;
+    top: 2em;
     position: relative;
 }
-.cover .no{
+.Email .no{
     color: white;
-    font-size: 20px;
-position: relative ;
-left: 20px;
-line-height: 70%;
-
-float: left;
+    font-size: 30px;
+    position: relative ;
+    top: 3em;
+    float:left ;
+    left: 285px;
+    line-height: 70%;
+   
 }
-.cover .thr{
+.Email .thr{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 position: relative ;
-line-height: 70%;
-right: 82px;
-float: left; 
+line-height: 10%;
+float: left;
+left: -8em;
+top: 5em; 
 }
