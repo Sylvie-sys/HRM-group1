@@ -15,7 +15,7 @@ const SideNav = ({visible}: Props) => {
          <li> <Link to="/department">Department</Link></li>
          <li> <Link to="/employee-table">Employee table</Link></li>
          <li><Link to="">Financial</Link></li>
-         <li> <Link to="">Statistics</Link></li>
+         <li> <Link to="/Statistics">Statistics</Link></li>
          <li> <Link to="">Time</Link></li>
          <li> <Link to="">Help</Link></li>
          <li><Link to="">Log out</Link>  </li>

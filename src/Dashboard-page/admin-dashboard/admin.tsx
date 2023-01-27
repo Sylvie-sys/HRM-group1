@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import Header from "../header";
 import SideNav from "../side-nav";
 import './admin.css'
-
+import Data from "../STATISTICS/statistics"
 const Dashboard = () => {
 
     return(
      <div className="dashb">
         <Header/> 
+        <Data/>
       <div id="menu">
           <div className="logo">
           <h1 className="dyn">HRMS</h1>
