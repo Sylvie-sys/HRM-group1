@@ -7,6 +7,7 @@ import Signup from './routes/signup';
 import Employee from './Dashboard-page/employee-table/employee';
 import Depart from './Dashboard-page/department/depart';
 import Dashboard from './Dashboard-page/admin-dashboard/admin';
+import Data from './Dashboard-page/STATISTICS/statistics';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,12 @@ const router = createBrowserRouter([
     path: "/department",
     element: <Depart/>
   },
+  {
+    path:"/STATISTICS",
+   element:<Data/>
+  }
+
+
 ]);
 
  function App() {
