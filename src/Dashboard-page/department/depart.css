@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     box-shadow: none;
+    
     }
     html, body{
         width: 100%;
@@ -11,11 +12,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: #ADC9F4; */
-    }
+}
+    
 .department{
-    max-width: 900px;
-    height: 200px;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -24,13 +23,19 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(from -27.5deg at 22.3% 14.26%, rgba(145, 184, 243, 0.612829) -169.09deg, #91B8F3 152.82deg, rgba(145, 184, 243, 0) 174.35deg, rgba(145, 184, 243, 0.612829) 190.91deg, #91B8F3 512.82deg);
+    bottom: 1px;
+    right: 1px;
 }
+
 .depar-list{
     position: fixed;
     font-weight: 100;
     font-size: 26px;
-    left: 14em;
-    top: 62px;
+    left: 10.4em;
+    top: 32px;
 }
 .hrms-dashb{
     position: fixed;
@@ -54,8 +59,8 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 7em;
-    top: 19em; 
+    right: 13em;
+    top: 5em; 
 }
 .editbtn{
    width: 99px;
@@ -67,7 +72,7 @@
    position: relative;
    display: flex;
    right: 19em;
-    top: 10.8em;
+   top: 10.8em;
 }
 .addbtn{
     width: 99px;
@@ -100,88 +105,75 @@ table{
     justify-content: center;
     box-sizing: border-box;
     border-collapse: collapse;
-    width: 70%;
+    width: 60%;
     position: fixed;
     padding: 0;
     margin: 0;
-    
+    height: 392px;
+    background-color: #fff;
+    right: 18em;
+    bottom: 9em;
 }
 thead tr td{
     font-size: 14px;
     font-weight: 900;
     text-transform: uppercase;
-    font-weight: 40px;
     text-align: start;
-    padding: 45px;
-    /* background-color: #fff; */
-     left: 28em;
-    top: 3em; 
-    height: 390px;
-}
-
-tbody tr td {
-    padding: 39px 60px;
-    left: 10em;
-    position: relative;     
+    padding: 30px;
+    white-space: nowrap;
    overflow: hidden;
+   text-overflow: clip;
+}
+tbody tr td {
+    padding: 40px 40px;
+    right: 11em;
+    bottom: 11em;
+    position: relative;     
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  text-align: justify;
+
 }
 table thead{
 position: relative;
-left: 24em;
-top: 3em;
+left: 21em;
+bottom: 9.5em;
 line-height: 12px; 
 display: flex;
 }
- table thead tr td{
-    position: relative;
-}
-.first-line{
+ .first-line{
     font-weight: 900;
     font-size: 19px;
-}
-.first-ln{
-    font-weight: 900;
-    font-size: 19px;
-    left: 21em;
+    right: 8em;
+    bottom: 9em;
+}  
 
-}
-table thead{
-    right: 4.3em;
-    top: 0em;
-}
 table tbody{
     position: relative; 
-    right: 15.3em;
-    top: 14em;
+    right: 20em;
+    top: 13em;
 }
 .searchinput{
-    /* position: relative; */
-    left: 42em;
-    bottom: 5em;
     width: 250px;
     border-radius: 20px;
     padding: 8px 40px;
 }
 .svgsearch{
-position: relative;
 left: 2em;
 top: 0.1em;
+position: relative; 
 width: 20px;
 height: 20px;
-}
+}        
 .searchinputsvg{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 35em;
-    bottom: 3.4em;
+    left: 16em;
+    bottom: 16.4em;
 }
-
-
-
-
-
 
 
 
