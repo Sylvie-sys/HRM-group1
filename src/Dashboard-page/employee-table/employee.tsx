@@ -11,7 +11,7 @@ const Employee = () => {
      <div className="dashb">
         <Header/> 
       <div id="menu">
-          <div className="logo">
+          <div className="logo"><img src="src/assets/hrmslogo.svg" alt="" className="logo-svg"/>
           <h1 className="dyn">HRMS</h1>
           </div>
        <div className="line"></div>
@@ -33,10 +33,11 @@ const Employee = () => {
         </div>
         </div>
         <div className="menu-sgvs">
-         <img src="src/assets/home.svg" alt="" className="home-svg"/>
-         <img src="src/assets/user.svg" alt="" className="user-svg"/>
-         <img src="src/assets/time.svg" alt="" className="time-svg"/>
-         <img src="src/assets/plot.svg" alt="" className="plot-svg"/>
+        <img src="src/assets/homee.svg" alt="" className="hom-svg"/>
+         <img src="src/assets/departmet.svg" alt="" className="user-svg"/>
+         <img src="src/assets/employee.svg" alt="" className="plot-svg"/>
+         <img src="src/assets/financial.svg" alt="" className="financial-svg"/>
+         <img src="src/assets/time.svg" alt="" className="plot"/>
          <img src="src/assets/help.svg" alt="" className="help-svg"/>
         <img src="src/assets/logout.svg" alt="" className="logout-svg"/>
         <img src="src/assets/equal.svg" alt="" className="equal-svg"/>

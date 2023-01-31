@@ -11,7 +11,7 @@ const Dashboard = () => {
      <div className="dashb">
         <Header/> 
       <div id="menu">
-          <div className="logo">
+          <div className="logo"> <img src="src/assets/hrmslogo.svg" alt="" className="logo-svg"/>
           <h1 className="dyn">HRMS</h1>
           </div>
        <div className="line"></div>
@@ -101,11 +101,17 @@ const Dashboard = () => {
   </div>
   <div className="val-box6">
     <div className='box9'>
-      
+    <img src="src/assets/notification.svg" alt="" className="noti"/>
+    <img src="src/assets/note.svg" alt="" className="note"/>
+    <img src="src/assets/folder.svg" alt="" className="folder"/>
+    <img src="src/assets/settigs.svg" alt="" className="set"/>
     </div>
   </div>
   <div className="val-box7">
       <p className="chart">Chart showing percentage <br /> of employee</p>
+    <img src="src/assets/chartgraph.svg" alt="" className="chartgraph-svg"/>
+    <p className="twenty">25%</p>
+    <p className="seventy">75%</p>
       <div className="fe-male">
       <p className="male">Male</p>
       <p className="female">Female</p>
@@ -114,13 +120,14 @@ const Dashboard = () => {
     </div> 
     </div>
          <div className="menu-sgvs">
-         <img src="src/assets/home.svg" alt="" className="hom-svg"/>
-         <img src="src/assets/user.svg" alt="" className="user-svg"/>
+         <img src="src/assets/homee.svg" alt="" className="hom-svg"/>
+         <img src="src/assets/departmet.svg" alt="" className="user-svg"/>
          <img src="src/assets/time.svg" alt="" className="time-svg"/>
-         <img src="src/assets/plot.svg" alt="" className="plot-svg"/>
+         <img src="src/assets/financial.svg" alt="" className="financial-svg"/>
+        <img src="src/assets/employee.svg" alt="" className="plot-svg"/>
          <img src="src/assets/help.svg" alt="" className="help-svg"/>
         <img src="src/assets/logout.svg" alt="" className="logout-svg"/>
-        <img src="src/assets/equal.svg" alt="" className="equal-svg"/>
+     <img src="src/assets/equal.svg" alt="" className="equal-svg"/> 
          </div>
               </div>
           )

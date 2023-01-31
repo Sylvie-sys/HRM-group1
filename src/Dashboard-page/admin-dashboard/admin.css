@@ -16,19 +16,32 @@ html, body{
 }
 .dyn{
         position: fixed;
-        font-weight: 900;
+        font-weight: 700;
         font-size: 26px;
-        left: 3.8em;
+        left: 4.3em;
         top: 32px;
         color: #fff;
 }
 .hom-svg{
     width: 26px;
-    height: 26px;
+    height: 20px;
     position: fixed;
     right: 79.5em;
-    top: 120px;
+    top: 122px;
     fill: white;
+}.logo-svg{
+    width: 40px;
+    height: 40px; 
+    position: fixed;
+    right: 78.6em;
+    top: 24px;
+    fill: white;
+}
+.chartgraph-svg{
+    width: 20%;
+    height: 20%;
+    position: fixed;
+    right: 19em;
 }
 .language-selector{
     align-items: center;
@@ -93,12 +106,20 @@ top: 2em;
     left: 64px;
     fill: white;
 }
-.plot-svg{
-    width: 28px;
-    height: 28px;
+.financial-svg{
+    width: 22px;
+    height: 22px;
     position: fixed;
-    top: 10.6em;
-    left: 60px;
+    top: 17em;
+    left: 64px;
+    fill: white;
+}
+.plot-svg{
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    top:14em;
+    left: 64px;
     fill: white;
 }
 .equal-svg{
@@ -113,8 +134,8 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 13.7em;
-    left: 64px;
+    top: 11.2em;
+    left: 67px;
     fill: white;
 }
 .time-svg{
@@ -495,12 +516,11 @@ background: #FFFFFF;
     line-height: 20px;
     box-shadow: 2px 2px 2px 2px rgb(208, 205, 205);
 }
-.remind{
+.remind{color: rgb(21, 21, 21);
     position: relative;
     right: 122px;
     bottom: 45px;
    font-size: 20px;
-   font-weight: 500;
    }
    .search2{
        height: 18px;
@@ -610,15 +630,13 @@ background: #FFFFFF;
     top: 19.2em;
     margin-left: 32.6em;
     line-height: 20px;
-    box-shadow: 2px 2px 2px 2px rgb(208, 205, 205);
+    box-shadow: 2px 2px 2px 2px rgb(220, 217, 217);
 
 }
 .val-box7 .chart{
-   position: relative;
    bottom: 7em;
    left: 20px;
-   font-size: 15px;
-   font-weight: 900;
+   font-weight: 700;
    color: #000;
 }
 .fe-male{
@@ -639,6 +657,12 @@ border-left: 6px solid rgb(185, 185, 251);
     color: #000;
     border-left: 6px solid rgb(250, 190, 130);
     }
+    .twenty{
+        color: #000;
+    }
+    .twenty{
+        color: #000;
+    }
 .val-box6{
     width: 70px;
     height: 434px;
@@ -650,3 +674,28 @@ border-left: 6px solid rgb(185, 185, 251);
     display: flex;
     justify-content: center;
 }
+.box9{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+}
+.note{
+    bottom: 4.8em;
+    position: relative;
+}
+.folder{
+    bottom: 2em;
+    position: relative;
+}
+.set{
+    top: 8em;
+    position: relative;
+}
+.noti{
+    bottom: 7.5em;
+    position: relative;
+}
+
+
