@@ -10,10 +10,11 @@ type Props = {
     label: string,
     helperText?: string,
     errorText?: string,
+    required?: boolean,
     onChange?: ChangeEventHandler<HTMLInputElement>,
     icon?: JSX.Element
 }
-export const TextFieldExplained = ({ name, type = "text",  variant =  "one", label, helperText, 
+export const TextFieldExplained = ({ required, name, type = "text",  variant =  "one", label, helperText, 
 
     icon,
     onChange, errorText
@@ -30,7 +31,7 @@ export const TextFieldExplained = ({ name, type = "text",  variant =  "one", lab
     
     return <div className={`txt-field-login ${variant} ${emptyInput}`} >
         
-        <input id={inputId} name={name} type={type} onChange={v=>{
+        <input required id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);
             if(onChange) {
                 onChange(v);
