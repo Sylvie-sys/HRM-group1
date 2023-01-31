@@ -1,7 +1,8 @@
-import { ChangeEventHandler } from "react";
+import { ChangeEventHandler, FormEventHandler } from "react";
 import "./signup.css"
 import { TextFieldExplained } from "../../Components/text-field-explained";
 import Authentication from "../../data/repository/authentication-impl";
+import { Link } from "react-router-dom";
 
 
 const authRepository = new Authentication();
@@ -22,9 +23,10 @@ const Signup = () => {
         password = v.target.value;
 
     }
-
-    // const createUser = async (evt: any) => {
-    //     evt.preventDefault();
+const onSubmitCreateAccountForm : FormEventHandler<HTMLFormElement> =(evte) => {
+    evte.preventDefault();
+}
+   
 
     //     const newUser: NewUser = {
     //         email: "test@email.com",
@@ -43,7 +45,10 @@ const Signup = () => {
             <div className="container">
 
 
-                <form action="" className="signup-form">
+                <form action="https://web-production-3d1f.up.railway.app/api/auth/register" 
+                className="signup-form"
+                onSubmit={onSubmitCreateAccountForm}
+                method="post">
                     <div className='header-text'>
                         <h3>Create Account</h3>
                     </div>
@@ -64,7 +69,8 @@ const Signup = () => {
                     <button className='signup-btn'>Sign up</button>
                     <div className="end">
                         <h5>Already have an account?</h5>
-                        <a href="">Sign in now</a>
+                        {/* <a href="./login">Sign in now</a> */}
+                         <Link to="/login">Sign in now</Link> 
                     </div>
                 </form>
             </div>

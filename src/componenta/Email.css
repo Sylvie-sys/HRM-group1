@@ -5,11 +5,8 @@
     /* background-color: rgb(198, 198, 248); */
 
 }
-@font-face{
-    font-family: "CustomFont";
-    src: url("../fonts/RolexLight.woff2");
 
-}
+
 .page{
     height: 150vh;
     width: 160%;

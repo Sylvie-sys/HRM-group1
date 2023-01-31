@@ -14,7 +14,7 @@ html, body{
     flex-direction: row;
     justify-content: center;
    align-items: center;
-   background-color: #071746;
+   background-color: #213861 ;
     width:  55%;
    height: 530px;
    left: 29em;
@@ -23,7 +23,7 @@ html, body{
 }
 .createli{
     text-decoration: none;
-    color: #546d91;
+    color: #8fb0de;
     position: relative;
     left: 30.8em;
     font-weight: 700;
@@ -31,7 +31,7 @@ html, body{
 }
 .passli{
     position: relative;
-    color: #3e5372;
+    color: #8fb0de;
     left: 40em;
     top: 6em;
     display: flex;
@@ -47,7 +47,7 @@ p{
     font-size: 15px;
     left: 30.6em;
     
-}
+}               
 .dontli{
 display: flex;
 margin-top: 52px;
@@ -148,7 +148,7 @@ display: flex;
     display: none;
 }
 .txt-field-login input:not(:valid) ~ span.error-text{
-    color: red;
+    color: #8fb0de;
 }
 .txt-field-login label{
     position: absolute;
@@ -181,7 +181,7 @@ display: flex;
 @media (max-width: 580px) {
 
     .txt-field-login input  {
-        flex-direction: row;
+        flex-direction: column;
     }
 }
 

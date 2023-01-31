@@ -5,5 +5,31 @@
   padding: 2rem;
   text-align: center;
 }
+:root{
+  --accent-color:white;
+  --primary-color: var(#2E4B73 );
+  --secondary-color: #4E789E;
+  --font-size: 16px;
+  --border-radius:0;
+
+}
+  @media (prefers-color-scheme: dark) {
+    .day.dark-scheme {
+    
+        --accent-color:white;
+        --primary-color: var(#2E4B73 );
+        --secondary-color: #4E789E;
+        --font-size: 16px;
+        --border-radius:0;
+    }
+    
+  }
 
 
+.App{
+padding: 0.5rem 3.5rem;
+overflow: hidden;
+color: var(#2E4B73 );
+
+
+}
