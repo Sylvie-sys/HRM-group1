@@ -1,6 +1,6 @@
 import { ChangeEventHandler, FormEventHandler } from "react";
 import "./signup.css"
-import { TextFieldExplained } from "../../Components/text-field-explained";
+import { TextFieldExplained } from "../login-page";
 import Authentication from "../../data/repository/authentication-impl";
 import { Link } from "react-router-dom";
 
@@ -54,16 +54,16 @@ const onSubmitCreateAccountForm : FormEventHandler<HTMLFormElement> =(evte) => {
                     </div>
                     <div className="signup-txtfld">
                     <div className="singup-inputs-group">
-                        <TextFieldExplained name="name" type="text" variant="two" label="FirstName" />
-                        <TextFieldExplained name="name" type="text" variant="two" label="LaststName" />
+                        <TextFieldExplained required name="name" type="text" variant="two" label="FirstName" />
+                        <TextFieldExplained required name="name" type="text" variant="two" label="LaststName" />
                     </div>
                         <div className="email-pass">
-                        <TextFieldExplained name="name" type="email" variant="two" label="Emails" />
-                        <TextFieldExplained name="number" type="number" variant="two" label="Phone number" />
+                        <TextFieldExplained required  name="name" type="email" variant="two" label="Emails" />
+                        <TextFieldExplained  required name="number" type="number" variant="two" label="Phone number" />
                         </div>
                     <div className="singup-inputs-groups">
-                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
-                        <TextFieldExplained onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
+                        <TextFieldExplained required onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Password" />
+                        <TextFieldExplained required onChange={onPasswordChange} name="passcode" type="password" variant="two" label="Re-type Password" />
                     </div>
                     </div>
                     <button className='signup-btn'>Sign up</button>
