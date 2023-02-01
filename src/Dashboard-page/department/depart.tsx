@@ -1,7 +1,4 @@
-import {useState} from "react";
-import SideNav from "../side-nav";
 import Header from "../header"
-import { Link } from "react-router-dom"
 import './depart.css'
 
 

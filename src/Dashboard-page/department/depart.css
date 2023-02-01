@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     box-shadow: none;
-    
-    }
-    html, body{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
 }
-    
-.department{
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.department {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -30,22 +32,24 @@
     right: 1px;
 }
 
-.depar-list{
+.depar-list {
     position: fixed;
     font-weight: 100;
     font-size: 26px;
     left: 10.4em;
     top: 32px;
 }
-.hrms-dashb{
+
+.hrms-dashb {
     position: fixed;
     font-weight: 900;
     font-size: 26px;
     left: 3.8em;
     top: 31px;
     color: #fff;
-} 
-.homee-svg{
+}
+
+.homee-svg {
     width: 26px;
     height: 26px;
     position: fixed;
@@ -53,28 +57,31 @@
     top: 120px;
     fill: white;
 }
-.three-buttons{
+
+.three-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
     right: 13em;
-    top: 5em; 
+    top: 5em;
 }
-.editbtn{
-   width: 99px;
-   height: 29px;
-   padding: 2px;
-   font-size: 16px;
-   color: rgb(66, 66, 132);
-   justify-content: center;
-   position: relative;
-   display: flex;
-   right: 19em;
-   top: 10.8em;
+
+.editbtn {
+    width: 99px;
+    height: 29px;
+    padding: 2px;
+    font-size: 16px;
+    color: rgb(66, 66, 132);
+    justify-content: center;
+    position: relative;
+    display: flex;
+    right: 19em;
+    top: 10.8em;
 }
-.addbtn{
+
+.addbtn {
     width: 99px;
     height: 29px;
     padding: 2px;
@@ -85,8 +92,9 @@
     display: flex;
     right: 11em;
     top: 9em;
- }
- .savebtn{
+}
+
+.savebtn {
     width: 99px;
     height: 29px;
     padding: 2px;
@@ -97,8 +105,9 @@
     display: flex;
     right: 3em;
     top: 7.3em;
- }
-table{
+}
+
+table {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -114,59 +123,66 @@ table{
     right: 18em;
     bottom: 9em;
 }
-thead tr td{
+
+thead tr td {
     font-size: 14px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: start;
     padding: 30px;
     white-space: nowrap;
-   overflow: hidden;
-   text-overflow: clip;
+    overflow: hidden;
+    text-overflow: clip;
 }
+
 tbody tr td {
     padding: 40px 40px;
     right: 11em;
     bottom: 11em;
-    position: relative;     
-   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: clip;
-  text-align: justify;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: justify;
 
 }
-table thead{
-position: relative;
-left: 21em;
-bottom: 9.5em;
-line-height: 12px; 
-display: flex;
+
+table thead {
+    position: relative;
+    left: 21em;
+    bottom: 9.5em;
+    line-height: 12px;
+    display: flex;
 }
- .first-line{
+
+.first-line {
     font-weight: 900;
     font-size: 19px;
     right: 8em;
     bottom: 9em;
-}  
+}
 
-table tbody{
-    position: relative; 
+table tbody {
+    position: relative;
     right: 20em;
     top: 13em;
 }
-.searchinput{
+
+.searchinput {
     width: 250px;
     border-radius: 20px;
     padding: 8px 40px;
 }
-.svgsearch{
-left: 2em;
-top: 0.1em;
-position: relative; 
-width: 20px;
-height: 20px;
-}        
-.searchinputsvg{
+
+.svgsearch {
+    left: 2em;
+    top: 0.1em;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.searchinputsvg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,9 +190,4 @@ height: 20px;
     left: 16em;
     bottom: 16.4em;
 }
-
-
-
-
-
-
+                       

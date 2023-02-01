@@ -274,3 +274,11 @@ top: 3em;
        border-radius: 4px;
        box-shadow: 2px 3px 3px 2px rgb(212, 210, 210);
       }
+      .plot{
+        width: 24px;
+        height: 24px;
+        position: fixed;
+        top:23.7em;
+        left: 64px;
+        fill: white;
+    }
