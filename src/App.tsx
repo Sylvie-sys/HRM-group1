@@ -13,9 +13,15 @@ import Components from './routes/login-page/login';
 import PasswordForm from './component/Password';
 
 import Data from './Dashboard-page/STATISTICS/statistics';
+import Left from './component/nana/nana';
 
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Left/>
+  },
+ 
   {
     path: "/login",
     element: <Components/>
@@ -40,7 +46,7 @@ const router = createBrowserRouter([
     path: "/password",
     element: <PasswordForm />
   },
-
+{
     path:"/STATISTICS",
    element:<Data/>
   }
