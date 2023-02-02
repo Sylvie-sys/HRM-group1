@@ -85,7 +85,9 @@ const onsubmitPasswordForm: FormEventHandler<HTMLFormElement>=(event) =>{
         type="password" variant="two" label=" Re-type password"/>
         </div>
 
-         <button className="confirm">confirm</button>
+         <button className="confirm">
+          <a href="/login">confirm</a>
+         </button>
         </div>
         // </form>
          

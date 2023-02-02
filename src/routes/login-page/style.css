@@ -79,6 +79,11 @@ margin-right: 12px;
     margin-top: 7em;
     font-family: sans-serif;
 }
+
+.fil a {
+
+    color: #264664;
+} 
 .fil{
      display: flex;
     flex-direction: row;
@@ -106,13 +111,13 @@ color: #3a5b8b;
     display: flex;
     flex-direction: row;
     align-items: center;
-    top: 58px;
+    top: 70px;
     left: 152px;
 }
 .text{
 position: relative;
 left: 122px;
-top: 42px;
+top: 54px;
 display: flex;
 flex-direction: row;
 align-items: center;

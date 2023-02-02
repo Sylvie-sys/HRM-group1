@@ -15,17 +15,19 @@
     height: 693px;
     background: conic-gradient(from -27.5deg at 22.3% 14.26%, rgba(145, 184, 243, 0.612829) -169.09deg, #91B8F3 152.82deg, rgba(145, 184, 243, 0) 174.35deg, rgba(145, 184, 243, 0.612829) 190.91deg, #91B8F3 512.82deg);
 }
-.header-text{
-height: 60px;
-left: 20px;
-bottom: 52px;
-position: relative;
-font-family: 'Poppins';
-font-style: normal;
-font-size: 29px;
-color: #FFFFFF;
+
+.header-text {
+    height: 60px;
+    left: 20px;
+    bottom: 52px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 29px;
+    color: #FFFFFF;
 }
-.email-pass{
+
+.email-pass {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,6 +36,7 @@ color: #FFFFFF;
     width: 100%;
     position: relative;
 }
+
 .container {
     box-sizing: border-box;
     max-width: 800px;
@@ -48,8 +51,69 @@ color: #FFFFFF;
     position: relative;
     justify-content: center;
 }
+
+.txt-field-signup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    max-width: 690px;
+    position: relative;
+    background-color: inherit;
+   
+}
+
+.txt-field-signup input{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+
+}
+.txt-field-signup input:valid ~ span.error-text{
+    display: none;
+}
+.txt-field-signup input:not(:valid) ~ span.helper-text{
+    display: none;
+}
+.txt-field-signup input:not(:valid) ~ span.error-text{
+    color: #8fb0de;
+}
+.txt-field-signup label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: inherit;
+    transition: all 0.1s cubic-bezier(0, 0, 0.3, 1);
+}
+.txt-field-signup span{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 10px
+}
+
+.txt-field-signup.two{
+    background: #264664;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.txt-field-signup.two input{
+    padding-bottom: 0;
+    padding-top: 22px;
+}
+.txt-field-signup.two input:focus ~ label, .two.not-empty label{
+    top: 14px;
+}
+
 .signup-form {
-    width:76%;
+    width: 76%;
     height: 430px;
     padding: 69px 2px;
     display: flex;
@@ -58,6 +122,7 @@ color: #FFFFFF;
     flex-direction: column;
     margin: 40px auto;
 }
+
 .signup-form .txt-field {
     margin: 8px 0;
 }
@@ -72,6 +137,7 @@ color: #FFFFFF;
     width: 100%;
     position: relative;
 }
+
 .singup-inputs-groups {
     display: flex;
     flex-direction: row;
@@ -82,43 +148,48 @@ color: #FFFFFF;
     width: 100%;
     position: relative;
 }
-.singup-inputs-group .txt-field{
+
+.singup-inputs-group .txt-field {
     width: 100%;
     min-width: none;
 }
-.signup-btn{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-max-width: 100%;
-width: 200px;
-height: 150px;
-color: white;
-margin-left: 212px;
-margin-top: 25px;
-font-weight: 700;
-background: #4E789E;
+
+.signup-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: 100%;
+    width: 200px;
+    height: 150px;
+    color: white;
+    margin-left: 212px;
+    margin-top: 25px;
+    font-weight: 700;
+    background: #4E789E;
 }
-.end{
-font-style: normal;
-font-size: 18px;
-line-height: 29px; 
-color: white;
-display: flex;
-left: 186px;
-position: relative;
-gap: 6px;
+
+.end {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: white;
+    display: flex;
+    left: 186px;
+    position: relative;
+    gap: 6px;
 }
-.end a{
-color: #8fb0de;
-font-weight: 700;
-font-size: 18px;
+
+.end a {
+    color: #8fb0de;
+    font-weight: 700;
+    font-size: 18px;
 }
+
 @media (max-width: 680px) {
 
-    .singup-inputs-group  {
+    .singup-inputs-group {
         flex-direction: column;
     }
 }

@@ -191,7 +191,7 @@ const Employee = () => {
             </div>
             </div>
             <div className="dashb-table8">
-            <img src="src/assets/eightpic.jpeg" alt="" className="eight-pic"/>
+            <img src="src/assets/firstpic.jpeg" alt="" className="eight-pic"/>
            <div className="emplo-pm">
            <p className="employee-name">Umutoni Benithe</p> 
            <p className="proj-man">Assistant Project Manager</p>

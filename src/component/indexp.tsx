@@ -1,7 +1,7 @@
 import { ChangeEventHandler, useState } from "react";
 // import { Link } from "react-router-dom";
 
-import "./style.css";
+// import "./style.css";
 
 type Props = {
     name: string, 
@@ -28,7 +28,7 @@ export const TextFieldExplained = ({ name, type = "text",  variant =  "one", lab
         emptyInput = "not-empty";
     }
     
-    return <div className={`txt-field-login ${variant} ${emptyInput}`} >
+    return <div className={`txt-field-signup ${variant} ${emptyInput}`} >
         
         <input id={inputId} name={name} type={type} onChange={v=>{
             setInputValue(v.target.value);
