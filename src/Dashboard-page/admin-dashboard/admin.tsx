@@ -30,6 +30,7 @@ const Dashboard = () => {
                        <option value={1}>Language</option>
                        <option value={2}>English</option>
                        <option value={2}>French</option>
+                       <option value={3}>Kinyarwanda</option>
                        </select>
                     </div>
                     </div>
@@ -111,8 +112,10 @@ const Dashboard = () => {
   <div className="val-box7">
       <p className="chart">Chart showing percentage <br /> of employee</p>
     <img src="src/assets/chartgraph.svg" alt="" className="chartgraph-svg"/>
+    <div className="percentages">
     <p className="twenty">25%</p>
     <p className="seventy">75%</p>
+    </div>
       <div className="fe-male">
       <p className="male">Male</p>
       <p className="female">Female</p>
@@ -127,7 +130,8 @@ const Dashboard = () => {
          <img src="src/assets/financial.svg" alt="" className="financial-svg"/>
         <img src="src/assets/employee.svg" alt="" className="plot-svg"/>
          <img src="src/assets/help.svg" alt="" className="help-svg"/>
-        <img src="src/assets/logout.svg" alt="" className="logout-svg"/>
+       
+        <a href="/" >  <img src="src/assets/logout.svg" alt="" className="logout-svg" /> </a>
      <img src="src/assets/equal.svg" alt="" className="equal-svg"/> 
          </div>
               </div>

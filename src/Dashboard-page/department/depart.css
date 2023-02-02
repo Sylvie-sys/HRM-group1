@@ -79,6 +79,7 @@ body {
     display: flex;
     right: 19em;
     top: 10.8em;
+    background-color: #fff;
 }
 
 .addbtn {
@@ -92,6 +93,7 @@ body {
     display: flex;
     right: 11em;
     top: 9em;
+    background-color: #fff;
 }
 
 .savebtn {
@@ -105,7 +107,9 @@ body {
     display: flex;
     right: 3em;
     top: 7.3em;
+    background-color: #fff;
 }
+
 
 table {
     display: flex;

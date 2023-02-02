@@ -14,6 +14,8 @@ import PasswordForm from './component/Password';
 
 import Data from './Dashboard-page/STATISTICS/statistics';
 import Left from './component/nana/nana';
+import  Finance  from './Dashboard-page/Finance/finance';
+import Time from './Dashboard-page/time/time';
 
 
 const router = createBrowserRouter([
@@ -49,10 +51,16 @@ const router = createBrowserRouter([
 {
     path:"/STATISTICS",
    element:<Data/>
-  }
+  },
 
-
-
+{
+  path:"/finance",
+  element:<Finance/>
+},
+{
+  path:"/time",
+  element:<Time/>
+}
 ]);
 
  function App() {

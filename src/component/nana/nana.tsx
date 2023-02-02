@@ -1,7 +1,5 @@
-
-
 import './nana.css'
-import vector from "../../component/nana/img/vector.png" 
+import vector from "./img/Vector.png" 
 
 const Left = () => {
   return <div className='All'>
@@ -21,8 +19,12 @@ const Left = () => {
         <div className='batton'>
           {/* <img src="src/assets/circle.sv" alt="" /> */}
           
-        <button className='ba1'> admin registration</button><br />
-        <button className='ba1'> Employee Registration</button><br />
+        <button className='ba1'>
+          <a href="/signup">Admin registration</a>
+           </button><br />
+           <button className='ba1'>
+          <a href="/signup">Employee registration</a>
+           </button><br />
         <button className='ba1'>More details</button>
       
       </div>
@@ -37,9 +39,6 @@ const Left = () => {
           </div>
         </div>
         </footer>
-
-
-
       </div>
       
   

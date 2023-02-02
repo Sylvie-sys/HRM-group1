@@ -48,7 +48,9 @@ const Depart =  () =>{
         <div className="three-buttons">
             <button className="editbtn">Edit</button>
             <button className="addbtn">+ Add</button>
-            <button className="savebtn">Save</button>
+            <button className="savebtn">
+              <a href="/admin-dashboard">Save</a>
+              </button>
         </div>
         {/* <div className="menu-sgvs">
          <img src="src/assets/home.svg" alt="" className="homee-svg"/>

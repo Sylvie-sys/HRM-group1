@@ -12,7 +12,7 @@ html, body{
  flex-direction: column;
  justify-content: center;
  align-items: center; 
- background-color: #E5E7E8;
+ 
 }
 .dyn{
         position: fixed;
@@ -26,14 +26,14 @@ html, body{
     width: 26px;
     height: 20px;
     position: fixed;
-    right: 79.5em;
-    top: 122px;
+    left: 2.8em;
+    top: 92px;
     fill: white;
 }.logo-svg{
     width: 40px;
     height: 40px; 
     position: fixed;
-    right: 78.6em;
+    right: 89em;
     top: 24px;
     fill: white;
 }
@@ -41,7 +41,7 @@ html, body{
     width: 20%;
     height: 20%;
     position: fixed;
-    right: 19em;
+    right: 29em;
 }
 .language-selector{
     align-items: center;
@@ -60,9 +60,9 @@ html, body{
     left: 39em;
 }
 .line2{
-width: 248px;
+width: 208px;
 height: 1px;
-top: 442px;
+top: 402px;
 left: 5px;
 justify-content: center;
 align-items: center;
@@ -94,56 +94,64 @@ top: 2em;
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 32.6em;
-    left:  68px;
+    top: 30.4em;
+    left:  50px;
     fill: white;
 }
 .help-svg{
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 29.7em;
-    left: 64px;
+    top: 27.7em;
+    left: 50px;
     fill: white;
 }
 .financial-svg{
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 17em;
-    left: 64px;
+    top: 15em;
+    left: 50px;
     fill: white;
 }
 .plot-svg{
     width: 24px;
     height: 24px;
     position: fixed;
-    top:14em;
-    left: 64px;
+    top:11.9em;
+    left: 50px;
+    fill: white;
+}
+.plot{
+    width: 24px;
+    height: 24px;
+    position: fixed;
+    top:21.6em;
+    left: 50px;
     fill: white;
 }
 .equal-svg{
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 20.1em;
-    left: 64px;
+    top: 18.1em;
+    left: 50px;
     fill: white;
 }
 .user-svg{
     width: 22px;
     height: 22px;
     position: fixed;
-    top: 11.2em;
-    left: 67px;
+    top: 9em;
+    left: 50px;
     fill: white;
 }
 .time-svg{
     width: 20px;
     height: 20px;
     position: fixed;
-    top: 23.6em;
-    left: 64px;
+    top: 21.8em;
+    left: 50px;
     fill: white;
 }
 .time1-svg{
@@ -173,7 +181,7 @@ top: 2em;
 .menu{
     background-color: #071746;
     width: 259px;
-    height: 1124px;
+    height: 1190px;
     position: relative;
     right: 32px;
     display: flex;
@@ -322,8 +330,8 @@ background: #FFFFFF;
 }
 .interface .navigation {
     position: fixed;
-    width: calc(100% - 259px);
-    left: 16.2em;
+    width: calc(100% - 200px);
+    left: 13.2em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -334,13 +342,14 @@ background: #FFFFFF;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 2px 190px;
+    padding: 2px 196px;
     position: relative;
-    left: 2.5em; 
-    width: 452px;
-    height: 28px;
+    left: 4.5em;
+    width: 448px;
+    height: 31px;
     border-radius: 50px;
     background-color: white;
+    top: 15px;
     
 }
 .interface .navigation .search input{
@@ -627,7 +636,7 @@ background: #FFFFFF;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
-    top: 19.2em;
+    top: 17.09em;
     margin-left: 32.6em;
     line-height: 20px;
     box-shadow: 2px 2px 2px 2px rgb(220, 217, 217);
@@ -657,17 +666,26 @@ border-left: 6px solid rgb(185, 185, 251);
     color: #000;
     border-left: 6px solid rgb(250, 190, 130);
     }
-    .twenty{
-        color: #000;
+    .percentages{
+        position: relative;
+        right: 30em;
+        gap: 20px;
     }
     .twenty{
         color: #000;
+        position: relative;
+        right: 12em;
+    }
+    .seventy{
+        color: #000;
+        position: relative;
+        right: 12em;
     }
 .val-box6{
     width: 70px;
     height: 434px;
-    left: 69em;
-    bottom: 2em;
+    left: 75em;
+    bottom: 8em;
     position: fixed;
     background-color: #061647;
     align-items: center;
