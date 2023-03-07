@@ -16,7 +16,7 @@ body,
 .All {
     position: relative;
     width: 100%;
-    height: 95%;
+    height: 100%;
     background: conic-gradient(from -27.5deg at 22.3% 14.26%, rgba(145, 184, 243, 0.612829) -169.09deg, #91B8F3 152.82deg, rgba(145, 184, 243, 0) 174.35deg, rgba(145, 184, 243, 0.612829) 190.91deg, #91B8F3 512.82deg);
 
 }
@@ -86,10 +86,10 @@ body,
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #213861;
     width: 100%;
     height: 6rem;
-    bottom: 0px;
+    top: 35.5em;
     display: flex;
     flex-direction: row;
-    gap: 30rem;
+    gap: 40rem;
 
 }
 
@@ -135,54 +135,3 @@ body,
     text-decoration: none;
     color: white;
 }
-
-/* .circlesvg{
-        position: relative;
-        font-size: 60px; 
-     } */
-
-/*
-
-.help{
-   font-size: 12px;
-   position: relative;
-   left: 2em;
-   color: black;
-   font-size: 39px;
-   top: 198px;
-}   
-
-
-
-
-
-
-
-
-
-    
-.ba1
-    
-  
-   
-    .Top{
-        position: fixed;
-    }
-.adminsvg{
-    position: relative;
-    left: 111em;
-    top: 10em;
-}
-
-
-
-
-
- .help{
-    font-size: 12px;
-    position: relative;
-    left: 2em;
-    color: white;
-    font-size: 39px;
-    bottom: 10px;
- } */
