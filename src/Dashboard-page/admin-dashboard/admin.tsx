@@ -54,7 +54,7 @@ const Dashboard = () => {
            <p className='pm'>Senior UI/UX design</p>
            <p className='cand'>4 candidates</p>
            </div>
-           <div className='circle4'></div>
+           <div className='circle1'></div>
            </div>
            <div className="dashb-box3">
            <h3 className='num'>3</h3>

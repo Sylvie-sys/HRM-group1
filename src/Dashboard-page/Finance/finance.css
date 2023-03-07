@@ -1,4 +1,9 @@
 .financials{
     width: 100%;
     height: 100%;
+    max-width: 900px;
+    min-width: 200px;
+    top: 9em; 
+    display: flex;
+    position: relative;
 }
